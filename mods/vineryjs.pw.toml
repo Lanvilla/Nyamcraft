@@ -1,0 +1,13 @@
+name = "VineryJS"
+filename = "vineryjs-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NzjRrLbn/versions/Oqqjwhir/vineryjs-1.0.0.jar"
+hash-format = "sha512"
+hash = "a8f86dbc9ac02fb6a3edbd6c62a9a4e4173d85d0b284ef7b3dfa111d96293589265e6b9b197ed43995ef663fcd0616f8c4199dd506e879e4c4c24b3f1b7c013f"
+
+[update]
+[update.modrinth]
+mod-id = "NzjRrLbn"
+version = "Oqqjwhir"

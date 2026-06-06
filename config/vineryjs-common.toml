@@ -1,0 +1,8 @@
+[debug]
+	#Enable debug logging
+	debugLogging = false
+
+[general]
+	#Globally allow custom wines to be placed as blocks
+	#WARNING: Currently broken!
+	universalAllowPlacement = false

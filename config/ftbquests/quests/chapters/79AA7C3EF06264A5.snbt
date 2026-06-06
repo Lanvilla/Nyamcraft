@@ -1,0 +1,297 @@
+{
+	autofocus_id: "31732B419BF84788"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "79AA7C3EF06264A5"
+	group: ""
+	id: "79AA7C3EF06264A5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:axolotl"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "31732B419BF84788"
+			rewards: [{
+				count: 4
+				id: "36F5CB1FD430F755"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "440A9D39AB33812E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25DD83CF99AA0648"]
+			disable_toast: true
+			id: "767C3B3375FDE629"
+			rewards: [{
+				id: "65666C58E1E9E63A"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "13C3DB07150685A2"
+				item: { count: 1, id: "backpacked:backpack" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["25DD83CF99AA0648"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "74E26A9CA5D3CB41"
+			rewards: [{
+				id: "4DFC729F1C48C7C4"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "2D8328FA0DEC1558"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25DD83CF99AA0648"]
+			disable_toast: true
+			id: "66A266FF1D59E7E2"
+			rewards: [{
+				id: "78E5805B66F04C78"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "1C9DD5183A5A767B"
+				item: { count: 1, id: "grapplemod:grappling_hook" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25DD83CF99AA0648"]
+			disable_toast: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:zombie"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2EF291A2945C1404"
+			rewards: [{
+				id: "76DB0C66F848D5CC"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "4E5C268B04995D40"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74E26A9CA5D3CB41"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/map"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4E04387DA969D997"
+			rewards: [{
+				id: "487B2120AE2D9485"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "7EDD9C42F30F2D73"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0CCBA64AEDF23638"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "25DD83CF99AA0648"
+			tasks: [{
+				id: "5C407C73CD44D665"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74E26A9CA5D3CB41"]
+			disable_toast: true
+			id: "3637AFD9EBDC4AB7"
+			rewards: [{
+				count: 2
+				id: "75823A01413622E9"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "2B167CFC5DBB67FD"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74E26A9CA5D3CB41"]
+			disable_toast: true
+			id: "23D4CEFA73B14D1F"
+			rewards: [{
+				id: "33804E3B72E03F7C"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "716BADDB43B004F4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(waystones:waystone)item(waystones:mossy_waystone)item(waystones:sandy_waystone)item(waystones:deepslate_waystone)item(waystones:blackstone_waystone)item(waystones:end_stone_waystone))", "minecraft:custom_name": "\"Waystones\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				optional_task: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23D4CEFA73B14D1F"]
+			disable_toast: true
+			id: "4D41638F7C916853"
+			rewards: [{
+				id: "7F91EA1E8B256AA3"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6939EE68ADED8501"
+				item: { components: { "ftbfiltersystem:filter": "or(item(waystones:warp_scroll)item(waystones:warp_stone)item(waystones:blank_scroll))", "minecraft:custom_name": "\"Waystone_additions\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31732B419BF84788"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "emi_loot:textures/gui/chest.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0CCBA64AEDF23638"
+			tasks: [{
+				id: "6680071C5AE3D3CA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:stone_pickaxe)item(minecraft:stone_axe))", "minecraft:custom_name": "\"EMI_tutorial\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66A266FF1D59E7E2"]
+			disable_toast: true
+			id: "61E1B0BB77B54DA0"
+			rewards: [{
+				id: "70DEC0A1C105357E"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7D10F316D5C52FDE"
+				item: { components: { "ftbfiltersystem:filter": "or(item(vc_gliders:paraglider_wood)item(vc_gliders:paraglider_iron)item(vc_gliders:paraglider_gold)item(vc_gliders:paraglider_diamond)item(vc_gliders:paraglider_netherite))", "minecraft:custom_name": "\"Paraglider\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CCBA64AEDF23638"]
+			disable_toast: true
+			id: "65A51CCE8073AA99"
+			rewards: [{
+				id: "516DD554732E3BC5"
+				item: {
+					count: 1
+					id: "brewery:beer_haley"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:skeleton"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1FEFAF26EDA88C4F"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31732B419BF84788"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon_scale: 0.75d
+			id: "030F9F0771B24C53"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4A51C91782CA966B"
+				item: { count: 1, id: "sereneseasons:calendar" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}
