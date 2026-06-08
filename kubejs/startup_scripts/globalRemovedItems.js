@@ -1,7 +1,4 @@
 global.removedItems = [
-	//glider
-	"vc_gliders:copper_upgrade",
-	"vc_gliders:nether_upgrade",
 	//create
 	"create:wheat_flour",
 	"create:dough",
