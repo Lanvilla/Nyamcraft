@@ -1109,7 +1109,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "9178c613f67c62d8b656950c873bd12aebfad6e787dbcb5e4c123b87b8977466"
+hash = "513b44fad7dd1af0fb5821cb49dfdce677d3c76494d632624b6ea758dcdafef3"
 hash-format = "sha256"
 metafile = true
 
@@ -1121,7 +1121,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "6632b5bf5d4a47942c43c0e2c98193bbcc239718e713874d0e98f31db688a766"
+hash = "87feb9b970fb1778c1983ab64c4b9702f2583d40b810f204c5fa6a266e66b73f"
 hash-format = "sha256"
 metafile = true
 
@@ -1175,7 +1175,7 @@ metafile = true
 
 [[files]]
 file = "mods/grapplemod-skybound.pw.toml"
-hash = "f40cab5074a06f4444a36c28a6480569a3a430bb054b83db0506646c585193f3"
+hash = "87fad14e90e1eb6209101ab9d4f6fce0225b7835fd2797382337a6a2cdd93df1"
 hash-format = "sha256"
 metafile = true
 
@@ -1206,6 +1206,12 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
+hash-format = "sha256"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "531aa276b74eabc24566c57412527767238c74ee16b9c646dff511f56dba990c"
 hash-format = "sha256"
 metafile = true
 
@@ -1391,7 +1397,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "6b91f46291891e725189b0bd54d0db0f66925b1e785bdfa737592dfcf41a79a3"
+hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 hash-format = "sha256"
 metafile = true
 
@@ -1422,6 +1428,12 @@ metafile = true
 [[files]]
 file = "mods/serene-shrubbery.pw.toml"
 hash = "6215a724409895ab441601ae1237503370d0cb14edbd366f124158b785018ef1"
+hash-format = "sha256"
+metafile = true
+
+[[files]]
+file = "mods/showcase-item.pw.toml"
+hash = "f67f27ecc171b7934e114a09ac00f066cb2343d2350f2f1b9a96bd33c022fb94"
 hash-format = "sha256"
 metafile = true
 
@@ -1457,7 +1469,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+hash = "e8964aa3252bc02d75abbeac52b4d8deb621e56bc6b549e3127b0f2bc4a76fc2"
 hash-format = "sha256"
 metafile = true
 
@@ -1469,7 +1481,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "4200dfffc1dde1872a354552621d4b2fb8e6958020416daf0d17bbf1c5396cd7"
+hash = "0dea27308923cd58934a1f4fd59a52fb8af0fc6803659541cd053a57f6ae67cd"
 hash-format = "sha256"
 metafile = true
 
@@ -1481,7 +1493,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "d3abedf1c2a644a6ae0b6c50b55dc0a3d46eaf77d66d274555e82a2ba76741d8"
+hash = "ad913fb22740cb4cfd0db00a085f9dc96f8813d4350e64e575bb6eb9fa1512f2"
 hash-format = "sha256"
 metafile = true
 
