@@ -89,6 +89,14 @@ file = "config/dramaticdoors-startup.toml"
 hash = "ee4c4f849b571ddce8328359c809d74fe83b341607a10be55d0faa3fb90289b4"
 
 [[files]]
+file = "config/drippyloadingscreen/early_window_reference.properties"
+hash = "8a602eda8c52eb574c5a14e0c9c5f4ee01743a83f3873a7ee03fd25ce06a39b9"
+
+[[files]]
+file = "config/drippyloadingscreen/options.txt"
+hash = "6efc03de23e82ad202267bd19b0ccf25198ce3d58fa0c43841e5457a7e90a5b8"
+
+[[files]]
 file = "config/dynamic_fps.json"
 hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
 
@@ -802,7 +810,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "2f6a345c8124dd87b60c8ebbbaa35d9efa27c2d1947357b3247ab98fae9db210"
+hash = "ad35139007c512c76be9945e89ad86e27b3d13bdefb31931486a2a1348321830"
 metafile = true
 
 [[files]]
@@ -848,6 +856,11 @@ metafile = true
 [[files]]
 file = "mods/diagonal-windows.pw.toml"
 hash = "218dcd780f0251a15f78b097206ea22a519d57b974b39e2fdd43dce91ac07133"
+metafile = true
+
+[[files]]
+file = "mods/do-api.pw.toml"
+hash = "488c916a519935ea70a04ae507400bfcaf794cbbf108acb1a3e213db2a15058b"
 metafile = true
 
 [[files]]
@@ -912,7 +925,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
+hash = "efc2c4fe9e2cc169aff61a6b7a41ea9bc7a22a90aadf0776b22de647ddf3cef6"
 metafile = true
 
 [[files]]
@@ -931,8 +944,13 @@ hash = "513b44fad7dd1af0fb5821cb49dfdce677d3c76494d632624b6ea758dcdafef3"
 metafile = true
 
 [[files]]
+file = "mods/ftb-filter-system.pw.toml"
+hash = "9cb8d355c77067b00a96d96db398f60db62a6ee238dabff45ade33dd8d9f9e3b"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "54b6ce5c7ccf54db4cf8888e1c7e56b2d840cddc0e3e3fd15869a03d5c76c2ef"
+hash = "5fb287ddb204cc2460dc51984099b0010462f781d00b2d6ed2a37046accf2560"
 metafile = true
 
 [[files]]
@@ -943,6 +961,16 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "43287a3c5030a05b370b45ec1ab9a4a8d5c3d43e9c740aae5218f07ffd041fd2"
+metafile = true
+
+[[files]]
+file = "mods/ftbxaerocompat.pw.toml"
+hash = "db5702e18aadc0f4c6a0b1a79e6689aa97e6d5d8979012769709ad287f034434"
 metafile = true
 
 [[files]]
@@ -1062,12 +1090,17 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-wildernature.pw.toml"
-hash = "dd7ec3687553b3e83d76b72ca22ec84cb8f4e618585aeb972377c42a7d6ae72a"
+hash = "0c93cce4687d676ade38014ef7c93eb70d00edb42537cf0beae8675b1affbb89"
 metafile = true
 
 [[files]]
 file = "mods/light-overlay.pw.toml"
 hash = "c9a79c8e684a727cfb60a1644a0306a3401375bdac808f4c9ba3f8321a9ff678"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "eec0715d020c6079c430338684d4cd752aa55231cb7887174b361481834e3ac4"
 metafile = true
 
 [[files]]
@@ -1086,6 +1119,11 @@ hash = "9dff522b00f5269538d0351536f34b22384996de30be454ef1369f1b1e5c1aeb"
 metafile = true
 
 [[files]]
+file = "mods/mns-moogs-nether-structures.pw.toml"
+hash = "8b9d79b8bbb682667b4880563d86bfdb4d67fccc5bbf21ca37961fd513714791"
+metafile = true
+
+[[files]]
 file = "mods/mod-menu-(neoforge-edition).pw.toml"
 hash = "1a17dcb130a85f5fe951e5187d6e4ffcfcbf7e5c6bf9f6ccb453431c0692143e"
 metafile = true
@@ -1097,7 +1135,7 @@ metafile = true
 
 [[files]]
 file = "mods/moogs-structure-lib.pw.toml"
-hash = "2a4f1e4be390cad36273b547e1cc2bf1b3a74c5f9e80ca3cfc0d0830030c0bbc"
+hash = "8e9b61ed721c95cf7fdca46979bb20fdb12aaecccccc92a7822e5ce7a6cbca19"
 metafile = true
 
 [[files]]
@@ -1232,7 +1270,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "0dea27308923cd58934a1f4fd59a52fb8af0fc6803659541cd053a57f6ae67cd"
+hash = "fb576dc2125e7421b539185791488698fa5f6e2691705135194d97d27c10019e"
 metafile = true
 
 [[files]]
@@ -1252,12 +1290,12 @@ metafile = true
 
 [[files]]
 file = "mods/starcatcher.pw.toml"
-hash = "26a5f31016e8628102c591b3e1edd474337d14c938a970ec46eee9388d7d278c"
+hash = "5d1d08108bcfb6eeb476f52bddf7b9f753e7788fa715254fef316162645a5644"
 metafile = true
 
 [[files]]
 file = "mods/starcatchers-delight.pw.toml"
-hash = "92b1c411dc8e2b701c73391a4bfe67b718e0045109db76ef0acfe48f9d0c169c"
+hash = "2b3a2c2f9a5f815473a388084f869af13ab23a57875a9f91b1d2913e5ca5379e"
 metafile = true
 
 [[files]]
@@ -1268,6 +1306,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+metafile = true
+
+[[files]]
+file = "mods/tmrv.pw.toml"
+hash = "b28cc434de3932e66c46ed31a8e28d5ea1e28ad1b77f0a9bfa863cfc71c51071"
 metafile = true
 
 [[files]]
@@ -1297,7 +1340,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "ac287f392613eddfa285620dcecb3fea25ee6232a201009cde5c5511b6a39fb9"
+hash = "c129b31143323e9a97c616a8f67fcd3e9db422fa15ec9b50476131a226c3caf2"
 metafile = true
 
 [[files]]
