@@ -481,31 +481,6 @@ hash = "6359364663ea3c418cacb79500bb529d4988ce1089d6e73ed5b2eef526f2e6d1"
 hash-format = "sha256"
 
 [[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
-hash-format = "sha256"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/79AA7C3EF06264A5.snbt"
-hash = "33e8b5fff30f38719f91d918d27fa3c7b85e20b6bf9df38968df67ba2f06b94b"
-hash-format = "sha256"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
-hash-format = "sha256"
-
-[[files]]
-file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "6499add89fc2a51b4507ea66b50eaae65e2763db4b6e84045ec6bd8dcd5915c1"
-hash-format = "sha256"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/76CA4DAB96B56F07.snbt"
-hash = "e37a3f95ea30aa788b285f72492d45cabb4633a216cb86f013f9eb6bf162cd7d"
-hash-format = "sha256"
-
-[[files]]
 file = "config/ftbxmodcompat.snbt"
 hash = "5bd7b51a19e26a0da910d2cd3908cda0f56cc42396db00fc6d9f242ee9aeca6e"
 hash-format = "sha256"
@@ -926,23 +901,8 @@ hash = "701f8cff8390ad62c40db3ca6a903f0dad86be877fc2b706acbd74cd131436ba"
 hash-format = "sha256"
 
 [[files]]
-file = "kubejs/assets/nyancurrency/textures/block/nyamcraft.zip"
-hash = "cb18d053c47c403c4c2d1e0acddb4861bc25737f507a7ea6502366507d1fa9b0"
-hash-format = "sha256"
-
-[[files]]
 file = "kubejs/assets/nyancurrency/textures/block/nyanblock.png"
 hash = "1d501c6484efd38575c7b1392fcc96eb1ec77252d9629240ae9832a69fcfa612"
-hash-format = "sha256"
-
-[[files]]
-file = "kubejs/assets/nyancurrency/textures/block/nyanium_flow.png"
-hash = "5b0578f7753578a976d763dbb72c4398480fda5e35fdc682cf66d4ed7050ec20"
-hash-format = "sha256"
-
-[[files]]
-file = "kubejs/assets/nyancurrency/textures/block/nyanium_still.png"
-hash = "35cfb387e0aef6460e5aa8c900ae654ef94e065b96d97cc0630c2f61ec88ebd8"
 hash-format = "sha256"
 
 [[files]]
