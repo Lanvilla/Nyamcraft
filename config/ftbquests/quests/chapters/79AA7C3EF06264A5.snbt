@@ -39,11 +39,6 @@
 			dependencies: ["25DD83CF99AA0648"]
 			disable_toast: true
 			id: "767C3B3375FDE629"
-			rewards: [{
-				id: "65666C58E1E9E63A"
-				type: "xp"
-				xp: 20
-			}]
 			tasks: [{
 				disable_toast: true
 				id: "13C3DB07150685A2"
@@ -108,9 +103,17 @@
 				xp: 25
 			}]
 			tasks: [{
-				disable_toast: true
-				id: "4E5C268B04995D40"
-				type: "checkmark"
+				entity: "minecraft:zombie"
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:zombie"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "348C6B9CFBD5A5FF"
+				type: "kill"
+				value: 1L
 			}]
 			x: -3.0d
 			y: 1.5d
@@ -145,6 +148,14 @@
 				id: "minecraft:campfire"
 			}
 			id: "25DD83CF99AA0648"
+			rewards: [{
+				id: "495129AEA58A2E46"
+				item: {
+					count: 1
+					id: "nyancurrency:nyancoin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C407C73CD44D665"
 				type: "checkmark"
@@ -177,6 +188,9 @@
 		{
 			dependencies: ["74E26A9CA5D3CB41"]
 			disable_toast: true
+			icon: {
+				id: "waystones:waystone"
+			}
 			id: "23D4CEFA73B14D1F"
 			rewards: [{
 				id: "33804E3B72E03F7C"
@@ -187,11 +201,15 @@
 				type: "item"
 			}]
 			tasks: [{
-				disable_toast: true
-				id: "716BADDB43B004F4"
-				item: { components: { "ftbfiltersystem:filter": "or(item(waystones:waystone)item(waystones:mossy_waystone)item(waystones:sandy_waystone)item(waystones:deepslate_waystone)item(waystones:blackstone_waystone)item(waystones:end_stone_waystone))", "minecraft:custom_name": "\"Waystones\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				optional_task: true
-				type: "item"
+				icon: {
+					id: "waystones:waystone"
+				}
+				id: "6E54444A7AB63E9B"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "waystones:waystone"
+				type: "observation"
 			}]
 			x: -4.0d
 			y: 2.5d
@@ -201,9 +219,13 @@
 			disable_toast: true
 			id: "4D41638F7C916853"
 			rewards: [{
-				id: "7F91EA1E8B256AA3"
-				type: "xp"
-				xp: 20
+				count: 2
+				id: "03586678C1393203"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "6939EE68ADED8501"
@@ -252,14 +274,6 @@
 			dependencies: ["0CCBA64AEDF23638"]
 			disable_toast: true
 			id: "65A51CCE8073AA99"
-			rewards: [{
-				id: "516DD554732E3BC5"
-				item: {
-					count: 1
-					id: "brewery:beer_haley"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				disable_toast: true
 				icon: {
@@ -278,7 +292,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["31732B419BF84788"]
+			dependencies: [
+				"31732B419BF84788"
+				"5C407C73CD44D665"
+			]
 			disable_toast: true
 			hide_until_deps_complete: true
 			icon_scale: 0.75d
@@ -290,8 +307,2714 @@
 				item: { count: 1, id: "sereneseasons:calendar" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 5.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["030F9F0771B24C53"]
+			disable_toast: true
+			id: "42C47ADD37E014A8"
+			rewards: [{
+				id: "1AB4FA9CFE39375B"
+				item: {
+					count: 1
+					id: "furniture:trash_bag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76F2A850609C17A1"
+				item: { count: 1, id: "starcatcher:starcatcher_guide" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["006EADB0DB57043D"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "vinery:straw_hat"
+			}
+			id: "3C551A5F420195F7"
+			tasks: [{
+				id: "5F183960A8800CD1"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"42C47ADD37E014A8"
+				"006EADB0DB57043D"
+			]
+			disable_toast: true
+			id: "2C7A560045B93DF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56C5534D884D6EEE"
+				table_id: 8559739441134268167L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C9A04FA5DB8D824"
+				item: { count: 1, id: "selling_bin:selling_bin" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "677D06B72F19782B"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "33A0D0A4963D009D"
+				item: { count: 1, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1BC678741B3237D3"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "0CDB1AA573B07C84"
+				item: { count: 1, id: "minecraft:potato" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6A67EE84BE02E509"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "7B47F1490584191E"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "51BBEFFCC7CAD42F"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "4A2C24D84982C8B8"
+				item: { count: 1, id: "minecraft:cocoa_beans" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3A9EF0DE77853E93"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "71AFA32A4CA820FE"
+				item: { count: 1, id: "minecraft:pumpkin" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6CF498ACACDFDDF1"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "49139F980EB88869"
+				item: { count: 1, id: "minecraft:melon" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "14EF8946FE8450D8"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "58EBC4B1960CB1E2"
+				item: { count: 1, id: "minecraft:beetroot" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3F5DF62878FA1D04"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "6DEE8783D7C428B9"
+				item: { count: 1, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0811DC008B8E1032"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "1360EB1B5F0027DB"
+				item: { count: 1, id: "croptopia:artichoke" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4E0687E3BFADF0B6"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "578387B89967CFBC"
+				item: { count: 1, id: "croptopia:asparagus" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "231F8FBFD08F53F9"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "54D66DA159DD12B2"
+				item: { count: 1, id: "croptopia:barley" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0EF8B9AB2BA6DA03"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "0469E8DF63054087"
+				item: { count: 1, id: "croptopia:basil" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4711F55671E2243A"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "1238B76392C69BD7"
+				item: { count: 1, id: "croptopia:bellpepper" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "78031220608D52C8"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "236CA035B7D8A06E"
+				item: { count: 1, id: "croptopia:blackbean" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "75CEF3D8345A4E79"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "2E31C39A4F969641"
+				item: { count: 1, id: "croptopia:blackberry" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "54F13C8B4A08E131"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "47D082D2A280EB67"
+				item: { count: 1, id: "croptopia:blueberry" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0AAE9E58C8F53894"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "34984B8F67C6D711"
+				item: { count: 1, id: "croptopia:broccoli" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "369AEF14429C6778"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "6932FBEB85234DEB"
+				item: { count: 1, id: "croptopia:cabbage" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2897599CE900120C"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "524885FEAB792B84"
+				item: { count: 1, id: "croptopia:cantaloupe" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "252B3700CC46CF3B"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "523BE27268C8B90B"
+				item: { count: 1, id: "croptopia:cauliflower" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "217396B7FEE369F4"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "5DF2042640B617F2"
+				item: { count: 1, id: "croptopia:celery" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0A1E25D4BB2D5D58"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "784A10D4AA410AD1"
+				item: { count: 1, id: "croptopia:chile_pepper" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "73806F57226E54ED"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "078AF6FCACE94B54"
+				item: { count: 1, id: "croptopia:coffee_beans" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3D41656B3059615E"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "1C8FEAF8588E6A3E"
+				item: { count: 1, id: "croptopia:corn" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "28D7A45BA668524D"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "24B96F6B5DAD4A16"
+				item: { count: 1, id: "croptopia:cranberry" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "720351D469A0939B"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "1E4AF80180E90B1E"
+				item: { count: 1, id: "croptopia:cucumber" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4D6CCB6393CC778F"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "10C32869B34D1261"
+				item: { count: 1, id: "croptopia:currant" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "772411645702C095"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "2F38D986F276D5E2"
+				item: { count: 1, id: "croptopia:eggplant" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3FD7D8A9BD005B5D"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "6037CB68E84D57CE"
+				item: { count: 1, id: "croptopia:elderberry" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4CACB1C1C4EADFAD"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "58925AE0910D2837"
+				item: { count: 1, id: "croptopia:garlic" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "11E2A61C230922DA"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "5A2CF2EC0880F28E"
+				item: { count: 1, id: "croptopia:ginger" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "76EFF423E7F39683"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "23114CC7C93AB7D2"
+				item: { count: 1, id: "croptopia:greenbean" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7C9B915AABBB159D"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "599A898A779FE0D1"
+				item: { count: 1, id: "croptopia:greenonion" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6B9FCEA8C1DF4A6C"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "20F9BA79AAA99C16"
+				item: { count: 1, id: "croptopia:honeydew" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "628DB34A9F3AE45C"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "6EC66D019FE5AC22"
+				item: { count: 1, id: "brewery:hops" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3F4C440527BC39F3"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "73C973E46DEFDD36"
+				item: { count: 1, id: "croptopia:kale" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "39718B8A9D2CE23A"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "3C1DB88949A623ED"
+				item: { count: 1, id: "croptopia:kiwi" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4F9F492F82FB891F"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "4E17186E0506EA8A"
+				item: { count: 1, id: "croptopia:leek" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6B37F48906C3D444"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "7F8441278905CA43"
+				item: { count: 1, id: "croptopia:lettuce" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "381228B0C050BEED"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "5990CC3533789AF2"
+				item: { count: 1, id: "croptopia:mustard" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5E0F6188CDBD5015"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "1BF9A0E7D2A01837"
+				item: { count: 1, id: "farm_and_charm:oat" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "77021BE9B4129184"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "16768D4E4004982D"
+				item: { count: 1, id: "croptopia:olive" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4C8900D752729AF6"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "30667449B7876538"
+				item: { count: 1, id: "croptopia:onion" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7FE46496B987BC44"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "517617B059942373"
+				item: { count: 1, id: "croptopia:peanut" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "50E63D1FD86D218A"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "14B3214EF10312BE"
+				item: { count: 1, id: "croptopia:pepper" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2F9318E25F80F662"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "1D978D0FB1CEAB15"
+				item: { count: 1, id: "croptopia:pineapple" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2F04D1E56C95B93D"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "1968764FA8268C78"
+				item: { count: 1, id: "croptopia:radish" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "33478284E692EFD3"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "52521AAA8B9E4B4E"
+				item: { count: 1, id: "croptopia:raspberry" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "59B6C5EA6ED886F8"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "7CD1C730FEE177DE"
+				item: { count: 1, id: "croptopia:rhubarb" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3252E359B10C89CA"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "119E7B26DC9FD0DA"
+				item: { count: 1, id: "croptopia:rice" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6576934EF4D5A11B"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "0541378489DFC3BC"
+				item: { count: 1, id: "croptopia:rutabaga" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4713F6DC5DCC73A3"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "76DE624909C1415F"
+				item: { count: 1, id: "croptopia:saguaro" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6466C05A9CA2FD8B"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "065BADAF34B55E66"
+				item: { count: 1, id: "croptopia:soybean" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "36CB6F7D59267F5A"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "5BC0047011DF8CF0"
+				item: { count: 1, id: "croptopia:spinach" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6CA4792CF920CC5F"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "14BBFAB4EDD3DEE2"
+				item: { count: 1, id: "croptopia:squash" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4CFC8D381CBBBEC0"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "203B0E1924D8EF8A"
+				item: { count: 1, id: "croptopia:strawberry" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "56212A8B9E7C7612"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "33A944569D1D9A11"
+				item: { count: 1, id: "croptopia:sweetpotato" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "037286A02B017D1A"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "2A9AF4A4E105FD68"
+				item: { count: 1, id: "croptopia:tea_leaves" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7F0BB90649524F83"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "67C68581DA3AA977"
+				item: { count: 1, id: "croptopia:tomatillo" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0860615FA8E93000"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "249B3F6B376B7E70"
+				item: { count: 1, id: "croptopia:tomato" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4B0045173CA7E7B4"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "7418785E1669BE4A"
+				item: { count: 1, id: "croptopia:turmeric" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3CBAE865ACE7A16B"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "41C013E8E0F9542B"
+				item: { count: 1, id: "croptopia:turnip" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "520DF820C9EF53C3"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "1DC0B833914613B9"
+				item: { count: 1, id: "croptopia:vanilla" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6A0827A10D6AFA88"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "0509094CD3B68576"
+				item: { count: 1, id: "croptopia:yam" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3F83A8D3B2D85CD4"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "740D4733156BCDF5"
+				item: { count: 1, id: "croptopia:zucchini" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "33C57500AD4FF815"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "0C9E6C928B4B896B"
+				item: { count: 1, id: "vinery:red_grape" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3AECBB8659D5C719"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "2E746BB3DCDF3D5F"
+				item: { count: 1, id: "vinery:white_grape" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:almond_sapling"
+			}
+			id: "318A80BE2766EE5E"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "0BFBF4418FFB5CD6"
+				item: { count: 1, id: "croptopia:almond" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:apple_sapling"
+			}
+			id: "505BC887F7BCBB66"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "4BDB3D952970BBCC"
+				item: { count: 1, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:apricot_sapling"
+			}
+			id: "02CD8DCBCF4F5FEC"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "3F9615463CC5A66E"
+				item: { count: 1, id: "croptopia:apricot" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:avocado_sapling"
+			}
+			id: "3FADE206831EAAB5"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "26B18424244044DE"
+				item: { count: 1, id: "croptopia:avocado" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:banana_sapling"
+			}
+			id: "349BFC38A56150BF"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "4B3C6CD545093DA1"
+				item: { count: 1, id: "croptopia:banana" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:cashew_sapling"
+			}
+			id: "4C46808DB62F161F"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "34AD20AC03341CB1"
+				item: { count: 1, id: "croptopia:cashew" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:cherry_sapling"
+			}
+			id: "563166119CE19D18"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "5C42B5E3E98BC6E0"
+				item: { count: 1, id: "vinery:cherry" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:cinnamon_sapling"
+			}
+			id: "0C919DF131C4FEB1"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "0674002D417E799F"
+				item: { count: 1, id: "croptopia:cinnamon" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:coconut_sapling"
+			}
+			id: "67771ED680FDDB18"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "568130E3AC4DCABF"
+				item: { count: 1, id: "croptopia:coconut" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:date_sapling"
+			}
+			id: "54AE9572204545EF"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "2088A4F9E5118EC8"
+				item: { count: 1, id: "croptopia:date" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:dragonfruit_sapling"
+			}
+			id: "0A5B820F066E5992"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "5EAC17ECF38806B7"
+				item: { count: 1, id: "croptopia:dragonfruit" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:fig_sapling"
+			}
+			id: "326F6FBF97EDE930"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "415DF326BB18A6A5"
+				item: { count: 1, id: "croptopia:fig" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:grapefruit_sapling"
+			}
+			id: "20900F635E67878F"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "75F73F4728D9B292"
+				item: { count: 1, id: "croptopia:grapefruit" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:kumquat_sapling"
+			}
+			id: "4098335F026915CB"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "741D343C64CEB264"
+				item: { count: 1, id: "croptopia:kumquat" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:lemon_sapling"
+			}
+			id: "05980C6C6A839550"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "2E1A65693FE381B6"
+				item: { count: 1, id: "croptopia:lemon" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:lime_sapling"
+			}
+			id: "3E57CB3BDB137FEC"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "78566788686EAC62"
+				item: { count: 1, id: "croptopia:lime" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:mango_sapling"
+			}
+			id: "290EA15B98D474F0"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "04A0B038B2BF6A4D"
+				item: { count: 1, id: "croptopia:mango" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:nectarine_sapling"
+			}
+			id: "381A9F58F082E498"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "56ABDA0D258A1D68"
+				item: { count: 1, id: "croptopia:nectarine" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:nutmeg_sapling"
+			}
+			id: "0E272C10C2333785"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "2B2CDD00D7B93CA1"
+				item: { count: 1, id: "croptopia:nutmeg" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:orange_sapling"
+			}
+			id: "388BA3EB6C1CBD60"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "08C9E7DBED6EE83F"
+				item: { count: 1, id: "croptopia:orange" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:peach_sapling"
+			}
+			id: "3281AE70F447D339"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "612E114F68C3FFFF"
+				item: { count: 1, id: "croptopia:peach" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:pear_sapling"
+			}
+			id: "4BA3D0315CE9863E"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "335850A2E6059ACA"
+				item: { count: 1, id: "croptopia:pear" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:pecan_sapling"
+			}
+			id: "03CB6BD8ED24A158"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "0F75C521E3F9444A"
+				item: { count: 1, id: "croptopia:pecan" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:persimmon_sapling"
+			}
+			id: "4B6422EB9C9FCF38"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "1A0E8FB544AEFFC0"
+				item: { count: 1, id: "croptopia:persimmon" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:plum_sapling"
+			}
+			id: "599EA722EBE82B63"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "750BDD322D0FDBEC"
+				item: { count: 1, id: "croptopia:plum" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:starfruit_sapling"
+			}
+			id: "04E9FA040425B38A"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "41EA2C8761B7652D"
+				item: { count: 1, id: "croptopia:starfruit" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "croptopia:walnut_sapling"
+			}
+			id: "672CEBE7DD5D4F93"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				disable_toast: true
+				id: "4EF17F0B150F9E82"
+				item: { count: 1, id: "croptopia:walnut" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"31732B419BF84788"
+				"5C407C73CD44D665"
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "nyancurrency:nyancoin"
+			}
+			id: "5C83F3FC8A757C1F"
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "4D9EC3EAD8DBDD35"
+				item: { components: { "ftbfiltersystem:filter": "or(item(nyancurrency:nyancoin)item(nyancurrency:nyanblock))", "minecraft:custom_name": "\"Nyancurrency\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["030F9F0771B24C53"]
+			disable_toast: true
+			icon: {
+				id: "croptopia:barley"
+			}
+			id: "006EADB0DB57043D"
+			rewards: [{
+				id: "331543FB730213E2"
+				item: {
+					count: 1
+					id: "furniture:trash_bag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "5162FF59877E705C"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3637AFD9EBDC4AB7"]
+			disable_toast: true
+			id: "6D5DBB57AB1F4570"
+			rewards: [{
+				id: "614B7F186E6A1129"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					components: {
+						"ftbquests:icon": "subtle_effects:textures/particle/potion_poof_cloud_0.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "51B398965F44C599"
+				ignore_dimension: false
+				position: [I;
+					0
+					0
+					0
+				]
+				size: [I;
+					65536
+					30
+					65536
+				]
+				type: "location"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39D7C6B15882A207"]
+			disable_toast: true
+			id: "45F29661A9C1128E"
+			tasks: [{
+				id: "64CC40CCB5F89C16"
+				item: { count: 1, id: "vinery:red_grapejuice" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["39D7C6B15882A207"]
+			disable_toast: true
+			id: "644C6229493131A3"
+			tasks: [{
+				id: "65DDFF9D012B201A"
+				item: { count: 1, id: "vinery:red_taiga_grapejuice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["39D7C6B15882A207"]
+			disable_toast: true
+			id: "6F05327C3304039C"
+			tasks: [{
+				id: "75B1E7CEB6243D0D"
+				item: { count: 1, id: "vinery:red_jungle_grapejuice" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["39D7C6B15882A207"]
+			disable_toast: true
+			id: "70FFC650236C2981"
+			tasks: [{
+				id: "731C4B5E1EE38353"
+				item: { count: 1, id: "vinery:red_savanna_grapejuice" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["39D7C6B15882A207"]
+			disable_toast: true
+			id: "65C74B6BCA733EE6"
+			tasks: [{
+				id: "34610C8B2B5C32B1"
+				item: { count: 1, id: "vinery:white_grapejuice" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["39D7C6B15882A207"]
+			disable_toast: true
+			id: "4E15527412E2B038"
+			tasks: [{
+				id: "3C55286CBDE34043"
+				item: { count: 1, id: "vinery:white_taiga_grapejuice" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["39D7C6B15882A207"]
+			disable_toast: true
+			id: "16AD657A14DFF313"
+			tasks: [{
+				id: "283C20CAD134C305"
+				item: { count: 1, id: "vinery:white_jungle_grapejuice" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["39D7C6B15882A207"]
+			disable_toast: true
+			id: "4DD7C1E4AA14C91C"
+			tasks: [{
+				id: "7FEE70F62A8240D8"
+				item: { count: 1, id: "vinery:white_savanna_grapejuice" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["030F9F0771B24C53"]
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon: {
+				id: "vinery:grapevine_pot"
+			}
+			id: "1835EB4BC1C1BCCF"
+			rewards: [{
+				id: "7CB264753A39B6B8"
+				item: {
+					count: 1
+					id: "vinery:wine_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40D6CCBB371C4D02"
+					item: { count: 1, id: "vinery:grapevine_pot" }
+					type: "item"
+				}
+				{
+					id: "34B7343F77F1F7E0"
+					item: { count: 1, id: "vinery:wine_bottle" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1835EB4BC1C1BCCF"
+				"180DAD7D041F134C"
+			]
+			disable_toast: true
+			id: "39D7C6B15882A207"
+			rewards: [{
+				id: "1066F354071E44CB"
+				item: {
+					count: 1
+					id: "vinery:storage_pot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67095E20F9056518"
+				item: { count: 1, id: "vinery:fermentation_barrel" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["030F9F0771B24C53"]
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon: {
+				id: "vinery:apple_press"
+			}
+			id: "180DAD7D041F134C"
+			rewards: [{
+				id: "2A2F605D8B119D82"
+				item: {
+					count: 1
+					id: "vinery:wine_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "310A938A9EAD3C48"
+					item: { count: 1, id: "vinery:apple_press" }
+					type: "item"
+				}
+				{
+					id: "268E21245897DE88"
+					item: { count: 1, id: "vinery:wine_bottle" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["39D7C6B15882A207"]
+			disable_toast: true
+			icon: {
+				id: "vinery:oak_wine_rack_mid"
+			}
+			id: "171731C992BB46E5"
+			rewards: [{
+				count: 8
+				id: "29A9ECB0E71E0289"
+				item: {
+					count: 1
+					id: "vinery:wine_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7117516757DA031C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(vinery:dark_cherry_wine_rack_small)item(vinery:dark_cherry_wine_rack_mid)item(vinery:dark_cherry_wine_rack_big)item(vinery:oak_wine_rack_small)item(vinery:oak_wine_rack_big)item(vinery:oak_wine_rack_mid)item(vinery:spruce_wine_rack_small)item(vinery:spruce_wine_rack_big)item(vinery:spruce_wine_rack_mid)item(vinery:birch_wine_rack_small)item(vinery:birch_wine_rack_big)item(vinery:birch_wine_rack_mid)item(vinery:jungle_wine_rack_small)item(vinery:jungle_wine_rack_big)item(vinery:jungle_wine_rack_mid)item(vinery:acacia_wine_rack_small)item(vinery:acacia_wine_rack_big)item(vinery:acacia_wine_rack_mid)item(vinery:dark_oak_wine_rack_small)item(vinery:dark_oak_wine_rack_big)item(vinery:dark_oak_wine_rack_mid)item(vinery:mangrove_wine_rack_small)item(vinery:mangrove_wine_rack_big)item(vinery:mangrove_wine_rack_mid)item(vinery:bamboo_wine_rack_small)item(vinery:bamboo_wine_rack_big)item(vinery:bamboo_wine_rack_mid)item(vinery:cherry_wine_rack_small)item(vinery:cherry_wine_rack_big)item(vinery:cherry_wine_rack_mid))", "minecraft:custom_name": "\"WineRacks\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["11968C9BD6EBA82C"]
+			disable_toast: true
+			id: "44AF93F4AC012B36"
+			tasks: [{
+				id: "7D80AC7291F3C542"
+				item: { count: 1, id: "vinery:mead" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"180DAD7D041F134C"
+				"39D7C6B15882A207"
+			]
+			disable_toast: true
+			id: "11968C9BD6EBA82C"
+			tasks: [{
+				id: "65FCAFDD76B47BE2"
+				item: { count: 1, id: "vinery:apple_juice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["11968C9BD6EBA82C"]
+			disable_toast: true
+			id: "509403E65A56BFC2"
+			tasks: [{
+				id: "6A8AC34FB1F44A6C"
+				item: { count: 1, id: "vinery:apple_cider" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["11968C9BD6EBA82C"]
+			disable_toast: true
+			id: "3D607B7971F82BF5"
+			tasks: [{
+				id: "00373E9A7CFD423D"
+				item: { count: 1, id: "vinery:apple_wine" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["65C74B6BCA733EE6"]
+			disable_toast: true
+			id: "05FAE0024268E3B6"
+			tasks: [{
+				id: "6D8FE051C9C78B68"
+				item: { count: 1, id: "vinery:glowing_wine" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["65C74B6BCA733EE6"]
+			disable_toast: true
+			id: "10A9051B6A785A96"
+			tasks: [{
+				id: "5D221A785A7B0FF5"
+				item: { count: 1, id: "vinery:mellohi_wine" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["65C74B6BCA733EE6"]
+			disable_toast: true
+			id: "77FBD7357AD4CAFC"
+			tasks: [{
+				id: "2C972BD6F681917F"
+				item: { count: 1, id: "vinery:solaris_wine" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["45F29661A9C1128E"]
+			disable_toast: true
+			id: "38F81E5C2FEE2246"
+			tasks: [{
+				id: "5744F16500C12A94"
+				item: { count: 1, id: "vinery:noir_wine" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["45F29661A9C1128E"]
+			disable_toast: true
+			id: "6D8A3CEF55DADAFA"
+			tasks: [{
+				id: "446F94DDC929E773"
+				item: { count: 1, id: "vinery:red_wine" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["45F29661A9C1128E"]
+			disable_toast: true
+			id: "1FF009C7A9872361"
+			tasks: [{
+				id: "40A54D2BCC511C4E"
+				item: { count: 1, id: "vinery:strad_wine" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["45F29661A9C1128E"]
+			disable_toast: true
+			id: "3DB1B5E20CCC1A5F"
+			tasks: [{
+				id: "33A6CA3D3DAD5959"
+				item: { count: 1, id: "vinery:cherry_wine" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["45F29661A9C1128E"]
+			disable_toast: true
+			id: "0C78A2266405AA88"
+			tasks: [{
+				id: "68DBB2F19FE61D83"
+				item: { count: 1, id: "vinery:cristel_wine" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4DD7C1E4AA14C91C"]
+			disable_toast: true
+			id: "31FB83A48CA2F015"
+			tasks: [{
+				id: "05EF99B0D17F1AD4"
+				item: { count: 1, id: "vinery:creepers_crush" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4DD7C1E4AA14C91C"]
+			disable_toast: true
+			id: "271FCE76E6BC3318"
+			tasks: [{
+				id: "6E22CD4600CBD1C0"
+				item: { count: 1, id: "vinery:kelp_cider" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["70FFC650236C2981"]
+			disable_toast: true
+			id: "53D5132B3B6AC535"
+			tasks: [{
+				id: "79FCD92AD2148D88"
+				item: { count: 1, id: "vinery:lilitu_wine" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["70FFC650236C2981"]
+			disable_toast: true
+			id: "6C712FC7F3A7085B"
+			tasks: [{
+				id: "6B9766E061E0DFBC"
+				item: { count: 1, id: "vinery:jo_special_mixture" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["45F29661A9C1128E"]
+			disable_toast: true
+			id: "7D0AF3F0A2C428E2"
+			tasks: [{
+				id: "312C75718EB9F0DF"
+				item: { count: 1, id: "vinery:bottle_mojang_noir" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["65C74B6BCA733EE6"]
+			disable_toast: true
+			id: "1BED9B05B29D6E46"
+			tasks: [{
+				id: "2BC31C60F5C43223"
+				item: { count: 1, id: "vinery:jellie_wine" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4E15527412E2B038"]
+			disable_toast: true
+			id: "115A34741A90F786"
+			tasks: [{
+				id: "741C802F4AE8C698"
+				item: { count: 1, id: "vinery:eiswein" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4E15527412E2B038"]
+			disable_toast: true
+			id: "2725BF5216F90595"
+			tasks: [{
+				id: "38E0168D55FCC8B3"
+				item: { count: 1, id: "vinery:aegis_wine" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["16AD657A14DFF313"]
+			disable_toast: true
+			id: "00B25E143505D467"
+			tasks: [{
+				id: "190CE1F7739C8EEB"
+				item: { count: 1, id: "vinery:villagers_fright" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["16AD657A14DFF313"]
+			disable_toast: true
+			id: "527D5CA620B31B57"
+			tasks: [{
+				id: "07BA961BC20DADFA"
+				item: { count: 1, id: "vinery:clark_wine" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["644C6229493131A3"]
+			disable_toast: true
+			id: "389863CEACB9131E"
+			tasks: [{
+				id: "04A3DB1C270428B6"
+				item: { count: 1, id: "vinery:bolvar_wine" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["644C6229493131A3"]
+			disable_toast: true
+			id: "75D8874D4641B524"
+			tasks: [{
+				id: "01B619D041FE14EB"
+				item: { count: 1, id: "vinery:chorus_wine" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6F05327C3304039C"]
+			disable_toast: true
+			id: "2FED0B6FCC336B4C"
+			tasks: [{
+				id: "4AD28E2E97BDDC28"
+				item: { count: 1, id: "vinery:magnetic_wine" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6F05327C3304039C"]
+			disable_toast: true
+			id: "0F30852D713B98B9"
+			tasks: [{
+				id: "24B6ED52DB64DAF1"
+				item: { count: 1, id: "vinery:chenet_wine" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6F05327C3304039C"]
+			disable_toast: true
+			id: "2E99303AF22071BD"
+			tasks: [{
+				id: "2BCEEB62CA9F6A65"
+				item: { count: 1, id: "vinery:stal_wine" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["030F9F0771B24C53"]
+			disable_toast: true
+			hide_until_deps_visible: true
+			icon: {
+				id: "brewery:beer_mug"
+			}
+			id: "2C218674B7436CD2"
+			rewards: [{
+				id: "16AB1927997D53F3"
+				item: {
+					count: 1
+					id: "brewery:beer_mug"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7657E92DE9D879BD"
+				item: { components: { "ftbfiltersystem:filter": "or(item(farm_and_charm:silo_wood)item(farm_and_charm:silo_copper))", "minecraft:custom_name": "\"Silo\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C218674B7436CD2"]
+			disable_toast: true
+			icon: {
+				id: "brewery:wooden_brewingstation"
+			}
+			id: "74E317CB9BD52EDF"
+			tasks: [{
+				id: "3A35AFF6C95AA03A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(brewery:wooden_brewingstation)item(brewery:copper_brewingstation)item(brewery:netherite_brewingstation))", "minecraft:custom_name": "\"Brewing Station\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74E317CB9BD52EDF"]
+			disable_toast: true
+			id: "672166235BE8ABDD"
+			tasks: [{
+				id: "6555B9640262917E"
+				item: { count: 1, id: "brewery:dried_wheat" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["672166235BE8ABDD"]
+			disable_toast: true
+			id: "5449BC2CD999C139"
+			tasks: [{
+				id: "7D2018F5721DB23B"
+				item: { count: 1, id: "brewery:beer_wheat" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74E317CB9BD52EDF"]
+			disable_toast: true
+			id: "7A68ECC043BB6457"
+			tasks: [{
+				id: "0FA0D4480ECE49BC"
+				item: { count: 1, id: "brewery:dried_barley" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7A68ECC043BB6457"]
+			disable_toast: true
+			id: "68CCF0952204AAD0"
+			tasks: [{
+				id: "30B13AC6694508D3"
+				item: { count: 1, id: "brewery:beer_barley" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74E317CB9BD52EDF"]
+			disable_toast: true
+			id: "6CB9B67B026BC18B"
+			tasks: [{
+				id: "0D2BF3CCD515DFE8"
+				item: { count: 1, id: "brewery:beer_nettle" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74E317CB9BD52EDF"]
+			disable_toast: true
+			id: "27BB3E232D78041D"
+			tasks: [{
+				id: "6DAD0A00762EECA5"
+				item: { count: 1, id: "brewery:beer_hops" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74E317CB9BD52EDF"]
+			disable_toast: true
+			id: "174051A3D8571CA2"
+			tasks: [{
+				id: "719D6A9B1A3442A8"
+				item: { count: 1, id: "brewery:beer_haley" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74E317CB9BD52EDF"]
+			disable_toast: true
+			id: "0597FFA799664FD7"
+			tasks: [{
+				id: "353DFBA7753563C9"
+				item: { count: 1, id: "brewery:dried_corn" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74E317CB9BD52EDF"]
+			disable_toast: true
+			id: "75654BF347CAF780"
+			tasks: [{
+				id: "614DC29CE7266078"
+				item: { count: 1, id: "brewery:dried_oat" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75654BF347CAF780"]
+			disable_toast: true
+			id: "3916D783824F9952"
+			tasks: [{
+				id: "2CBE468FBEEDE1BA"
+				item: { count: 1, id: "brewery:beer_oat" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7A68ECC043BB6457"]
+			disable_toast: true
+			id: "2300776EDB4AE54B"
+			tasks: [{
+				id: "7A0F2E5F1B340EDA"
+				item: { count: 1, id: "brewery:whiskey_jojannik" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0597FFA799664FD7"]
+			disable_toast: true
+			id: "620A436187ECF853"
+			tasks: [{
+				id: "7C8AFBB04FED33EC"
+				item: { count: 1, id: "brewery:whiskey_cristelwalker" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["672166235BE8ABDD"]
+			disable_toast: true
+			id: "206D979901EE69C4"
+			tasks: [{
+				id: "69C9C7B99F4DE245"
+				item: { count: 1, id: "brewery:whiskey_maggoallan" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75654BF347CAF780"]
+			disable_toast: true
+			id: "069C57499CF05E49"
+			tasks: [{
+				id: "6A6226FC832A5861"
+				item: { count: 1, id: "brewery:whiskey_smokey_reverie" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7A68ECC043BB6457"
+				"672166235BE8ABDD"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "72EF810BDD0CAFE0"
+			tasks: [{
+				id: "622EA1CB64181B95"
+				item: { count: 1, id: "brewery:whiskey_lilitusinglemalt" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"672166235BE8ABDD"
+				"0597FFA799664FD7"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "66B397EC27E81766"
+			tasks: [{
+				id: "0A25A487E51CD048"
+				item: { count: 1, id: "brewery:whiskey_carrasconlabel" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"75654BF347CAF780"
+				"0597FFA799664FD7"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "48D99905177B4826"
+			tasks: [{
+				id: "03CC011CD2E1979E"
+				item: { count: 1, id: "brewery:whiskey_ak" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"672166235BE8ABDD"
+				"75654BF347CAF780"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "0B6007C70299C4A0"
+			tasks: [{
+				id: "60EA775E033D8B1C"
+				item: { count: 1, id: "brewery:whiskey_highland_hearth" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"7A68ECC043BB6457"
+				"75654BF347CAF780"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "6ABC88F1D6C42C74"
+			tasks: [{
+				id: "6E594FA755E831C5"
+				item: { count: 1, id: "brewery:whiskey_jamesons_malt" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["39D7C6B15882A207"]
+			disable_toast: true
+			id: "034BE3316057C8F5"
+			rewards: [{
+				id: "4B6457D3B0764173"
+				item: {
+					count: 1
+					id: "nyancurrency:nyanblock"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "vinery:main/wine_somelier"
+				criterion: ""
+				id: "19C0100BF31F4302"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3AD6C9FE52FD6D64"
+			rewards: [{
+				id: "75815B152F82CFBA"
+				item: {
+					count: 1
+					id: "nyancurrency:nyanblock"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "croptopia:gather_all"
+				criterion: ""
+				id: "34E7CF160A51DF76"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C551A5F420195F7"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1EE634C3A79CC14C"
+			rewards: [{
+				id: "0EB8999DA93265E3"
+				item: {
+					count: 1
+					id: "nyancurrency:nyanblock"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "croptopia:gather_tree_all"
+				criterion: ""
+				id: "03352206F4BC9390"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -1.0d
 		}
 	]
 }

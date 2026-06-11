@@ -1,9 +1,18 @@
 global.removedItems = [
+	"meadow:watering_can",
+	"waystones:dormant_shard",
 	//create
 	"create:wheat_flour",
 	"create:dough",
 	//croptopia
 	"croptopia:dough",
+	"croptopia:hops",
+	"croptopia:hops_seed",
+	"croptopia:cheese",
+	"croptopia:beer",
+	"croptopia:grape",
+	"croptopia:grape_seed",
+	"croptopia:oatmeal",
 	//farmerdelight
 	"farmersdelight:carrot_crate",
 	"farmersdelight:potato_crate",
@@ -78,11 +87,7 @@ global.removedItems = [
 	"farm_and_charm:barley",
 	"farm_and_charm:barley_ball",
 	"farm_and_charm:wild_barley",
-	//grapes
-	"croptopia:grape",
-	"croptopia:grape_seed",
 	//json missing
-	"croptopia:oatmeal",
 	"farm_and_charm:strawberry_tea_cup",
 	"farm_and_charm:nettle_tea_cup",
 	"farm_and_charm:ribwort_tea_cup"

@@ -1,0 +1,155 @@
+{
+  "values": {
+    "#brewery:beer": {
+      "base_value": 20,
+      "processors": [
+        {
+          "type": "selling_bin:beer_quality_processor",
+          "quality_multipliers": {
+            "1": 1.5,
+            "2": 2.0,
+            "3": 3.0
+          }
+        }
+      ]
+    },
+    "#meadow:cheese_wheels": {
+      "base_value": 20
+    },
+    "#meadow:cheese": {
+      "base_value": 5
+    },
+    "#vinery:red_wine": {
+      "base_value": 100,
+      "processors": [
+        {
+          "type": "selling_bin:wine_age_processor",
+          "age_multipliers": {
+            "1": 1.5,
+            "2": 2.0,
+            "3": 3.0,
+            "4": 5.0,
+            "5": 7.0,
+            "6": 7.0,
+            "7": 7.0,
+            "8": 3.0,
+            "9": 1.5
+          }
+        }
+      ]
+    },
+    "#vinery:white_wine": {
+      "base_value": 100,
+      "processors": [
+        {
+          "type": "selling_bin:wine_age_processor",
+          "age_multipliers": {
+            "1": 1.5,
+            "2": 2.0,
+            "3": 3.0,
+            "4": 5.0,
+            "5": 7.0,
+            "6": 7.0,
+            "7": 7.0,
+            "8": 3.0,
+            "9": 1.5
+          }
+        }
+      ]
+    },
+    "#starcatcher:common_fishes": {
+      "base_value": 10,
+      "processors": [
+        {
+          "type": "starcatcher:fishes_processor",
+          "golden_multiplier": 10.0,
+          "percentile_increase": 2.0
+        },
+        {
+          "type": "selling_bin:quality_foods_processor",
+          "quality_type": {
+            "quality_food:diamond": 2.0,
+            "quality_food:gold": 1.5,
+            "quality_food:iron": 1.25
+          }
+        }
+      ]
+    },
+    "#starcatcher:epic_fishes": {
+      "base_value": 80,
+      "processors": [
+        {
+          "type": "starcatcher:fishes_processor",
+          "golden_multiplier": 10.0,
+          "percentile_increase": 2.0
+        },
+        {
+          "type": "selling_bin:quality_foods_processor",
+          "quality_type": {
+            "quality_food:diamond": 2.0,
+            "quality_food:gold": 1.5,
+            "quality_food:iron": 1.25
+          }
+        }
+      ]
+    },
+    "#starcatcher:legendary_fishes": {
+      "base_value": 160,
+      "processors": [
+        {
+          "type": "starcatcher:fishes_processor",
+          "golden_multiplier": 10.0,
+          "percentile_increase": 2.0
+        },
+        {
+          "type": "selling_bin:quality_foods_processor",
+          "quality_type": {
+            "quality_food:diamond": 2.0,
+            "quality_food:gold": 1.5,
+            "quality_food:iron": 1.25
+          }
+        }
+      ]
+    },
+    "#starcatcher:rare_fishes": {
+      "base_value": 40,
+      "processors": [
+        {
+          "type": "starcatcher:fishes_processor",
+          "golden_multiplier": 10.0,
+          "percentile_increase": 2.0
+        },
+        {
+          "type": "selling_bin:quality_foods_processor",
+          "quality_type": {
+            "quality_food:diamond": 2.0,
+            "quality_food:gold": 1.5,
+            "quality_food:iron": 1.25
+          }
+        }
+      ]
+    },
+    "#starcatcher:uncommon_fishes": {
+      "base_value": 20,
+      "processors": [
+        {
+          "type": "starcatcher:fishes_processor",
+          "golden_multiplier": 10.0,
+          "percentile_increase": 2.0
+        },
+        {
+          "type": "selling_bin:quality_foods_processor",
+          "quality_type": {
+            "quality_food:diamond": 2.0,
+            "quality_food:gold": 1.5,
+            "quality_food:iron": 1.25
+          }
+        }
+      ]
+    },
+    "starcatcher:pearl": {
+      "base_value": 50,
+      "processors": []
+    }
+  }
+}

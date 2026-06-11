@@ -6,31 +6,6 @@ hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 hash-format = "sha256"
 
 [[files]]
-file = "config/NoChatReports/NCR-Client.json"
-hash = "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
-hash-format = "sha256"
-
-[[files]]
-file = "config/NoChatReports/NCR-Common.json"
-hash = "0eaad2630bd70ade719f7810e805810ada25379269ea194e43d3eea30c51dec0"
-hash-format = "sha256"
-
-[[files]]
-file = "config/NoChatReports/NCR-Encryption.json"
-hash = "0f61ac30bfc78653a30d715f793e30a6a43d6715106706487efd0aea5d43a84c"
-hash-format = "sha256"
-
-[[files]]
-file = "config/NoChatReports/NCR-ServerPreferences.json"
-hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
-hash-format = "sha256"
-
-[[files]]
-file = "config/NoChatReports/README.md"
-hash = "c52b76ccad2bd1063a22c7f6bb9e7c5db6b00fb53a6fd605585972ee0e5fc01f"
-hash-format = "sha256"
-
-[[files]]
 file = "config/appleskin-client.toml"
 hash = "7127a276c7305371397053cd8d0833e6825c828850626e4067b9fed1430ed217"
 hash-format = "sha256"
@@ -42,7 +17,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/backpacked.backpack.toml"
-hash = "02abfa9e55b9aa8000ee0c45b166ea6b1cf40de9d26b83f375d41f5db4a8cbd3"
+hash = "148e35c4bdafecd1e962ee5cd3253d3ac4eef8d75c728b99ce8d113f66e85ed0"
 hash-format = "sha256"
 
 [[files]]
@@ -136,16 +111,6 @@ hash = "ee4c4f849b571ddce8328359c809d74fe83b341607a10be55d0faa3fb90289b4"
 hash-format = "sha256"
 
 [[files]]
-file = "config/drippyloadingscreen/early_window_reference.properties"
-hash = "48c018d4c383719c0ad3a7c44b8a1f438c7cf0331a8964f345a5fd9211e12a1e"
-hash-format = "sha256"
-
-[[files]]
-file = "config/drippyloadingscreen/options.txt"
-hash = "6efc03de23e82ad202267bd19b0ccf25198ce3d58fa0c43841e5457a7e90a5b8"
-hash-format = "sha256"
-
-[[files]]
 file = "config/dynamic_fps.json"
 hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
 hash-format = "sha256"
@@ -212,22 +177,22 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fancymenu/assets/loading.png"
-hash = "3886bcd2c814d174f90da5805f6fc73f2130701621281d7bf4f995502ab4a439"
+hash = "e0f4e4c3dae1048a6030025b0e1726967afcf400c893fbc89a32979fff4002ef"
 hash-format = "sha256"
 
 [[files]]
 file = "config/fancymenu/assets/mainmenu.png"
-hash = "21f307c5c24aee9a2d0574a0a38c96b88e05b02bfded4a97c1e5653b83d27a12"
+hash = "fc21921fc6e7469b2900b6689848af6b239a2970b9afe761f2eea0c6c53c34c9"
 hash-format = "sha256"
 
 [[files]]
 file = "config/fancymenu/assets/mainmenu_mp.png"
-hash = "020cdd19436e3d766ea7f17fd381a276cb64ba39158485cd4f503aec29d823ef"
+hash = "566661085646134a8d8ca96dbf5cb7cc151e4a5e57c0bebf2b57208f95fd285d"
 hash-format = "sha256"
 
 [[files]]
 file = "config/fancymenu/assets/mainmenu_sp.png"
-hash = "0aa81c838c351aff4f43dd33f1d18e4f60315992891824e51b9c4dc004720e5b"
+hash = "a411acc0023099a55d7e00897980cd3bea21739d326fd35f55be240e77115413"
 hash-format = "sha256"
 
 [[files]]
@@ -242,7 +207,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "bd19e6a20b3a1b9f450376dbda8d958a5674dc8420d566a015ff1f8c8f66e1aa"
+hash = "adae593250db27a1501451812054835565b95acb98684c0f3d8d86212db45770"
 hash-format = "sha256"
 
 [[files]]
@@ -262,7 +227,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fancymenu/customization/connect_screen_layout.txt"
-hash = "e8d4f8f700ce436624e0ac670bb9826aee9e1039f681686dea008e965daa391e"
+hash = "7f810cf7fb320d1aa5aecd41400d47f7e7cc4670191c4cfb8bdff597cbf6ae59"
 hash-format = "sha256"
 
 [[files]]
@@ -271,8 +236,18 @@ hash = "a8120fae93b26687713fcf5ec46824fca2f96a818f42cae165b5c406262cdf85"
 hash-format = "sha256"
 
 [[files]]
+file = "config/fancymenu/customization/create_world_screen_layout.txt"
+hash = "d297e522bd4d5e7dc72b83e34220f75853d598a9e5efc252ad6bd69cb334c78f"
+hash-format = "sha256"
+
+[[files]]
 file = "config/fancymenu/customization/direct_join_server_screen_layout.txt"
 hash = "f83b2f4805b3e5c3088155c7a13adcf0dd5bda5139c468fb3dc0a5b4b58740e3"
+hash-format = "sha256"
+
+[[files]]
+file = "config/fancymenu/customization/disconnected_screen_layout.txt"
+hash = "47d568ac53ac9e3ef6f71c8cad248282385325e150ec53745b637c103a43e5b9"
 hash-format = "sha256"
 
 [[files]]
@@ -353,6 +328,11 @@ hash-format = "sha256"
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
 hash = "7320619ff3e556ca7cd5188c1b5efcb695dcd0f2774f41ae9fd44027d8f0addf"
+hash-format = "sha256"
+
+[[files]]
+file = "config/fancymenu/customization/progress_screen_layout.txt"
+hash = "b688dba5a8ad123da9dd5c4968947f068254cc578cb80ee22c15be0277810e31"
 hash-format = "sha256"
 
 [[files]]
@@ -507,12 +487,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/79AA7C3EF06264A5.snbt"
-hash = "441d868c5258806998d35fc2531edcf295d3bee2538259d0ab8b8f07c8c1025b"
-hash-format = "sha256"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "2469cebdf834ddad53988a9b8f47003df1c780ff27e65ea7f4f1e86c12c87ff1"
+hash = "33e8b5fff30f38719f91d918d27fa3c7b85e20b6bf9df38968df67ba2f06b94b"
 hash-format = "sha256"
 
 [[files]]
@@ -522,7 +497,12 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "cb1144527dd7f9dfb6845af269b27564161279d0ad261ce7482f0f61d6db5378"
+hash = "6499add89fc2a51b4507ea66b50eaae65e2763db4b6e84045ec6bd8dcd5915c1"
+hash-format = "sha256"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/76CA4DAB96B56F07.snbt"
+hash = "e37a3f95ea30aa788b285f72492d45cabb4633a216cb86f013f9eb6bf162cd7d"
 hash-format = "sha256"
 
 [[files]]
@@ -751,26 +731,6 @@ hash = "0c721ecf8a9a6fba8402b7ce73bf8580acdd078e9ac9c3b37c42245ca6d8c4b0"
 hash-format = "sha256"
 
 [[files]]
-file = "config/sound_physics_remastered/occlusion.properties"
-hash = "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb"
-hash-format = "sha256"
-
-[[files]]
-file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
-hash-format = "sha256"
-
-[[files]]
-file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "b02ad7af93ff5f9211b525b38e549b00eea78b65cfc55761289a83118ef79795"
-hash-format = "sha256"
-
-[[files]]
-file = "config/sound_physics_remastered/soundphysics.properties"
-hash = "d29dede3f214ee4b1aa03314f92c3f973c21ee6e26d173eba3d01a2083237b6d"
-hash-format = "sha256"
-
-[[files]]
 file = "config/starcatcher-client.toml"
 hash = "30aea6e5482bb7e890455741578b03672f357d5296c6cfe2e12309e57eac821b"
 hash-format = "sha256"
@@ -842,7 +802,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/vinery.toml"
-hash = "19912990f7f94b54ea5e3acd3eecb20e43f4005a13d1dbe929da5976b91e30b7"
+hash = "f4ff518c4d11dc6b09b8abd510fd0e5750cb6a1c0aa6f8a2ba46952c8eca78d1"
 hash-format = "sha256"
 
 [[files]]
@@ -852,7 +812,87 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "ce9f66f489557e0a4fc0f6c5de3d1fbed789ff13acc10ded32879c67cc861d3d"
+hash = "53a5fc240ba5a99e737dff05cfc25612be553f8bcc75b69cf7e40468ca760651"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/lib/profiles/default.cfg"
+hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/lib/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_client.json"
+hash = "3c888b22cba252e8f0a974f8c1604bc05109affbf4354ad3b16e71778c4b9774"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_server.json"
+hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "43d7b01a8710687554de4935be83bb6f412a0e1b74638c945d5f2eb67dfb20c5"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "94fc0e69a1754ef80c54e1f3c9193526c620b0ac646f94a4a0f560bcc58826a8"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/minimap/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/world-map/client.cfg"
+hash = "deece0fe0d29f2203a9699143a6209c451e91d7ecb799489c328b0d0fa31a90d"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/world-map/profiles/default.cfg"
+hash = "b44c8457da677bee4381b2c04c2e50072444093bc315d47dcd55e373abe31d48"
+hash-format = "sha256"
+
+[[files]]
+file = "config/xaero/world-map/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 hash-format = "sha256"
 
 [[files]]
@@ -876,13 +916,68 @@ hash = "43a31c7faa37dca84b1529f3abd8b01855755edf261c8a5a18e2209d2410bcb4"
 hash-format = "sha256"
 
 [[files]]
+file = "kubejs/assets/nyancurrency/models/block/nyanblock.json"
+hash = "ffd2f3aa6e93b1127088d15141f3ddfb8ab20485ab7eada4380f366f031c62cc"
+hash-format = "sha256"
+
+[[files]]
+file = "kubejs/assets/nyancurrency/models/item/nyancoin.json"
+hash = "701f8cff8390ad62c40db3ca6a903f0dad86be877fc2b706acbd74cd131436ba"
+hash-format = "sha256"
+
+[[files]]
+file = "kubejs/assets/nyancurrency/textures/block/nyamcraft.zip"
+hash = "cb18d053c47c403c4c2d1e0acddb4861bc25737f507a7ea6502366507d1fa9b0"
+hash-format = "sha256"
+
+[[files]]
+file = "kubejs/assets/nyancurrency/textures/block/nyanblock.png"
+hash = "1d501c6484efd38575c7b1392fcc96eb1ec77252d9629240ae9832a69fcfa612"
+hash-format = "sha256"
+
+[[files]]
+file = "kubejs/assets/nyancurrency/textures/block/nyanium_flow.png"
+hash = "5b0578f7753578a976d763dbb72c4398480fda5e35fdc682cf66d4ed7050ec20"
+hash-format = "sha256"
+
+[[files]]
+file = "kubejs/assets/nyancurrency/textures/block/nyanium_still.png"
+hash = "35cfb387e0aef6460e5aa8c900ae654ef94e065b96d97cc0630c2f61ec88ebd8"
+hash-format = "sha256"
+
+[[files]]
+file = "kubejs/assets/nyancurrency/textures/item/nyancoin.png"
+hash = "8f8de8e02625188260f938b551055f101e062c6eb0735efa4dd9a86f6ad22b09"
+hash-format = "sha256"
+
+[[files]]
 file = "kubejs/client_scripts/removeEMI.js"
-hash = "95ff23cf09d8bc9d586c30b881a60d1722ce7c7cc2a806329b3984ba610a54a5"
+hash = "b6ea708d6171b274f6e129dcefca1731bd8acd4f2c70573f2af268c997b55f66"
+hash-format = "sha256"
+
+[[files]]
+file = "kubejs/data/selling_bin/data_maps/item/selling_bin_currencies.json"
+hash = "2d8fffa5219b84e9b5a26a3497fe65871c8d8ace0f0e57f413b3196dbfb03630"
+hash-format = "sha256"
+
+[[files]]
+file = "kubejs/data/selling_bin/data_maps/item/selling_bin_value.json"
+hash = "63c58215478a333b844e29e2c80337b3e17bb6d55fc423f45cf7db012244dcf6"
 hash-format = "sha256"
 
 [[files]]
 file = "kubejs/startup_scripts/globalRemovedItems.js"
-hash = "1cfc8b12fad14b6bd07c7e8f29368fe5d5b15d5a15baa44000d35db99ee753e0"
+hash = "9f76d2d2211fed1cde63b15419fc06c84888159c2c8645a07f1afb34d325cbff"
+hash-format = "sha256"
+
+[[files]]
+file = "kubejs/startup_scripts/noDispenserBonemeal.js"
+hash = "747716889bc272ae387f32f071de4a1faff5e61b864bd1d3d09c2652a48a6ee8"
+hash-format = "sha256"
+
+[[files]]
+file = "kubejs/startup_scripts/nyancurrency/core.js"
+hash = "68c5ed90619e952a0e150b2f867042472697f224ced3ff4cf89c8a1a745fbebc"
 hash-format = "sha256"
 
 [[files]]
@@ -1175,7 +1270,7 @@ metafile = true
 
 [[files]]
 file = "mods/grapplemod-skybound.pw.toml"
-hash = "87fad14e90e1eb6209101ab9d4f6fce0225b7835fd2797382337a6a2cdd93df1"
+hash = "f40cab5074a06f4444a36c28a6480569a3a430bb054b83db0506646c585193f3"
 hash-format = "sha256"
 metafile = true
 
@@ -1296,12 +1391,6 @@ metafile = true
 [[files]]
 file = "mods/melody.pw.toml"
 hash = "9dff522b00f5269538d0351536f34b22384996de30be454ef1369f1b1e5c1aeb"
-hash-format = "sha256"
-metafile = true
-
-[[files]]
-file = "mods/mns-moogs-nether-structures.pw.toml"
-hash = "a0ff121cdcaf4e480b5bc3223dbf547feecf0aac11ab53cab5cead865a9fd680"
 hash-format = "sha256"
 metafile = true
 
@@ -1571,5 +1660,5 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "872a16481b2607d7ac4e44b45f0c64f5d044ebe6ebc287a63445be1365be5070"
+hash = "5556d207598097dfd3a01119da4916e0d9061f7461ff188f8d30c86453bc9d46"
 hash-format = "sha256"
