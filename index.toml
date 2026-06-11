@@ -14,7 +14,7 @@ hash = "02a0fadf11aa58e9f43f54987e312c213bdc36eb78f907c53b0d76761341b341"
 
 [[files]]
 file = "config/backpacked.backpack.toml"
-hash = "148e35c4bdafecd1e962ee5cd3253d3ac4eef8d75c728b99ce8d113f66e85ed0"
+hash = "668723b0558eaf69f59f6bfed1f8aa220d943445c418839ef215c4c7b9184e62"
 
 [[files]]
 file = "config/backpacked.client.toml"
@@ -107,10 +107,6 @@ hash = "d6a4dbdd823eefd0c0800fab06cd0327231668f5432d91f3f3e62f36a3cef8a9"
 [[files]]
 file = "config/emberstextapi-client.toml"
 hash = "3a7bef43ee22dafca86a02ac25d3525b5d4de943e5f27d8ac559f13f4b7f4300"
-
-[[files]]
-file = "config/emi.css"
-hash = "b2fefce8b997851759990d1ec0c71d4be631e435857eb7b19516e4806986ac34"
 
 [[files]]
 file = "config/emi_loot_config.toml"
@@ -373,16 +369,8 @@ file = "config/ftbchunks-client.snbt"
 hash = "c4997a4b2d0ef9c13419fb291f892902756185bdda59f9f9c5d31ac59d0cb736"
 
 [[files]]
-file = "config/ftbchunks-world.snbt"
-hash = "f2b57c4bd43191bb152c189b16562cea4c590e52d413c2ed53e401744426bdf9"
-
-[[files]]
 file = "config/ftblibrary-client.snbt"
 hash = "3cff98be547e95b4765e837e3ac06660341f9b407ad8f892286a3dde89a3a393"
-
-[[files]]
-file = "config/ftbquests-client.snbt"
-hash = "6359364663ea3c418cacb79500bb529d4988ce1089d6e73ed5b2eef526f2e6d1"
 
 [[files]]
 file = "config/ftbxmodcompat.snbt"
@@ -709,24 +697,24 @@ file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/quests/grappling_hook.png"
-hash = "43a31c7faa37dca84b1529f3abd8b01855755edf261c8a5a18e2209d2410bcb4"
+file = "kubejs/assets/currency/models/block/currencyblock.json"
+hash = "387c61efe83894ecfe3903f55447592f492eacf7fd803f3a2d10f4c096bd0a67"
 
 [[files]]
-file = "kubejs/assets/nyancurrency/models/block/nyanblock.json"
-hash = "ffd2f3aa6e93b1127088d15141f3ddfb8ab20485ab7eada4380f366f031c62cc"
+file = "kubejs/assets/currency/models/item/currencycoin.json"
+hash = "ee962951c56bb1f93dc49a33c9b69421a57b511d3a1611049cbab3e7cacce0c2"
 
 [[files]]
-file = "kubejs/assets/nyancurrency/models/item/nyancoin.json"
-hash = "701f8cff8390ad62c40db3ca6a903f0dad86be877fc2b706acbd74cd131436ba"
-
-[[files]]
-file = "kubejs/assets/nyancurrency/textures/block/nyanblock.png"
+file = "kubejs/assets/currency/textures/block/currencyblock.png"
 hash = "1d501c6484efd38575c7b1392fcc96eb1ec77252d9629240ae9832a69fcfa612"
 
 [[files]]
-file = "kubejs/assets/nyancurrency/textures/item/nyancoin.png"
+file = "kubejs/assets/currency/textures/item/currencycoin.png"
 hash = "8f8de8e02625188260f938b551055f101e062c6eb0735efa4dd9a86f6ad22b09"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/quests/grappling_hook.png"
+hash = "43a31c7faa37dca84b1529f3abd8b01855755edf261c8a5a18e2209d2410bcb4"
 
 [[files]]
 file = "kubejs/client_scripts/removeEMI.js"
@@ -734,11 +722,15 @@ hash = "b6ea708d6171b274f6e129dcefca1731bd8acd4f2c70573f2af268c997b55f66"
 
 [[files]]
 file = "kubejs/data/selling_bin/data_maps/item/selling_bin_currencies.json"
-hash = "2d8fffa5219b84e9b5a26a3497fe65871c8d8ace0f0e57f413b3196dbfb03630"
+hash = "13f84b7b4080cbcf255d1c53acf22822c8ae68f7dff9966b9b2d183483ce40d2"
 
 [[files]]
 file = "kubejs/data/selling_bin/data_maps/item/selling_bin_value.json"
-hash = "63c58215478a333b844e29e2c80337b3e17bb6d55fc423f45cf7db012244dcf6"
+hash = "784efe394645ed408d3b327eef72316092e2e8ce1990db993199bbeddc315ced"
+
+[[files]]
+file = "kubejs/startup_scripts/currency/core.js"
+hash = "212741fb5322ba01fb58509bcc4069143fe3db724daba989423f94ba358d4dd9"
 
 [[files]]
 file = "kubejs/startup_scripts/globalRemovedItems.js"
@@ -747,10 +739,6 @@ hash = "9f76d2d2211fed1cde63b15419fc06c84888159c2c8645a07f1afb34d325cbff"
 [[files]]
 file = "kubejs/startup_scripts/noDispenserBonemeal.js"
 hash = "747716889bc272ae387f32f071de4a1faff5e61b864bd1d3d09c2652a48a6ee8"
-
-[[files]]
-file = "kubejs/startup_scripts/nyancurrency/core.js"
-hash = "68c5ed90619e952a0e150b2f867042472697f224ced3ff4cf89c8a1a745fbebc"
 
 [[files]]
 file = "mods/amplified-nether.pw.toml"

@@ -33,7 +33,7 @@
 		paymentType = "ITEM"
 		# Only applicable if paymentType is set to ITEM. This option will control the item used when paying
 		# to unlock new slots.
-		paymentItem = "nyancurrency:nyanblock"
+		paymentItem = "currency:currencyblock"
 		# The interpolate method to use when calculating the cost of unlocking a slot. The cost
 		# of slots increases the more slots that are unlocked. This function determines how steep
 		# the price will increase after each slot is unlocked. The interpolated value is calculated
@@ -73,7 +73,7 @@
 		# numbers only. See customCostsSelectionFunction property to set the behaviour of
 		# how values are selected from the custom costs list.
 		# 
-		customCosts = [1, 3, 9, 18]
+		customCosts = [1, 2, 4, 8]
 		# Determines how the cost value is selected from the customCosts list.
 		# 
 		# Possible Functions:
@@ -179,7 +179,7 @@
 			paymentType = "ITEM"
 			# Only applicable if paymentType is set to ITEM. This option will control the item used when paying
 			# to unlock new slots.
-			paymentItem = "nyancurrency:nyancoin"
+			paymentItem = "currency:currencycoin"
 			# The interpolate method to use when calculating the cost of unlocking a slot. The cost
 			# of slots increases the more slots that are unlocked. This function determines how steep
 			# the price will increase after each slot is unlocked. The interpolated value is calculated
@@ -309,7 +309,7 @@
 		paymentType = "ITEM"
 		# Only applicable if paymentType is set to ITEM. This option will control the item used when paying
 		# to unlock new slots.
-		paymentItem = "nyancurrency:nyancoin"
+		paymentItem = "currency:currencycoin"
 		# The interpolate method to use when calculating the cost of unlocking a slot. The cost
 		# of slots increases the more slots that are unlocked. This function determines how steep
 		# the price will increase after each slot is unlocked. The interpolated value is calculated
