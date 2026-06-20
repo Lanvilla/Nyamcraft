@@ -1,6 +1,4 @@
 global.removedItems = [
-	"meadow:watering_can",
-	"waystones:dormant_shard",
 	//create
 	"create:wheat_flour",
 	"create:dough",

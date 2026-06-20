@@ -1,7 +1,7 @@
 {
   "values": {
     "#brewery:beer": {
-      "base_value": 8,
+      "base_value": 80,
       "processors": [
         {
           "type": "selling_bin:beer_quality_processor",
@@ -14,15 +14,15 @@
       ]
     },
     "#meadow:cheese_wheels": {
-      "base_value": 4,
+      "base_value": 40,
       "processors": []
     },
     "#meadow:cheese": {
-      "base_value": 1,
+      "base_value": 10,
       "processors": []
     },
     "#vinery:red_wine": {
-      "base_value": 20,
+      "base_value": 200,
       "processors": [
         {
           "type": "selling_bin:wine_age_processor",
@@ -41,7 +41,7 @@
       ]
     },
     "#vinery:white_wine": {
-      "base_value": 20,
+      "base_value": 200,
       "processors": [
         {
           "type": "selling_bin:wine_age_processor",
@@ -60,7 +60,7 @@
       ]
     },
     "#starcatcher:common_fishes": {
-      "base_value": 1,
+      "base_value": 10,
       "processors": [
         {
           "type": "starcatcher:fishes_processor",
@@ -78,7 +78,7 @@
       ]
     },
     "#starcatcher:uncommon_fishes": {
-      "base_value": 2,
+      "base_value": 20,
       "processors": [
         {
           "type": "starcatcher:fishes_processor",
@@ -96,7 +96,7 @@
       ]
     },
     "#starcatcher:rare_fishes": {
-      "base_value": 4,
+      "base_value": 40,
       "processors": [
         {
           "type": "starcatcher:fishes_processor",
@@ -114,7 +114,7 @@
       ]
     },
     "#starcatcher:epic_fishes": {
-      "base_value": 8,
+      "base_value": 80,
       "processors": [
         {
           "type": "starcatcher:fishes_processor",
@@ -132,7 +132,7 @@
       ]
     },
     "#starcatcher:legendary_fishes": {
-      "base_value": 16,
+      "base_value": 160,
       "processors": [
         {
           "type": "starcatcher:fishes_processor",
@@ -150,7 +150,7 @@
       ]
     },
     "starcatcher:pearl": {
-      "base_value": 5,
+      "base_value": 50,
       "processors": []
     }
   }

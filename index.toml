@@ -14,7 +14,7 @@ hash = "02a0fadf11aa58e9f43f54987e312c213bdc36eb78f907c53b0d76761341b341"
 
 [[files]]
 file = "config/backpacked.backpack.toml"
-hash = "668723b0558eaf69f59f6bfed1f8aa220d943445c418839ef215c4c7b9184e62"
+hash = "c744b2f90792a342c286940cb5d41cb4709b17ed1345e2170993c879d565c4ff"
 
 [[files]]
 file = "config/backpacked.client.toml"
@@ -477,14 +477,6 @@ file = "config/resourceful-config-web.json"
 hash = "ff3c6d9c7f4916bf4e7de955232dd727c795b5d0c97af3810555178394cdc9af"
 
 [[files]]
-file = "config/sable-client.toml"
-hash = "0abc8a8f2ce730e440521d4d3d2cb45ec475e9d5a0e01e17e74cfbd63a0bd26b"
-
-[[files]]
-file = "config/sable-common.toml"
-hash = "ff85fe8e0e93691961200fb4c8e910b44a99c6832a17d2ad564ed39ec3073713"
-
-[[files]]
 file = "config/seamless_sleep.toml"
 hash = "9eb1bc978773313e9b81c3b8a790a342333affd7eba82c6344be14ab1f839c6f"
 
@@ -493,20 +485,8 @@ file = "config/selling_bin-client.toml"
 hash = "638b02fb58f2a76cc7f281fd8e40129ff47f758ee9bc3e735b2fcfade03e204a"
 
 [[files]]
-file = "config/sereneseasons/fertility.toml"
-hash = "c71c6b8dae83ec2d5d61622535746cb3210911bed4077612770b1492a78dd03c"
-
-[[files]]
-file = "config/sereneseasons/seasons.toml"
-hash = "bca3088fa189e8786455a0f15636192ac53eab304673ec28837709a737d20e58"
-
-[[files]]
 file = "config/simulated-client.toml"
 hash = "ae2634e6d32c7fb2e3cfe195f0d5c3a4bd2a1e073890d0abcc982065b41e8219"
-
-[[files]]
-file = "config/sky_archipelago-common.toml"
-hash = "745c0106838d56726b0af81b3148d69810695805ebea3d5de74539791140c535"
 
 [[files]]
 file = "config/sliceanddice-client.toml"
@@ -705,48 +685,16 @@ file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
-file = "kubejs/assets/currency/models/block/currencyblock.json"
-hash = "387c61efe83894ecfe3903f55447592f492eacf7fd803f3a2d10f4c096bd0a67"
-
-[[files]]
-file = "kubejs/assets/currency/models/item/currencycoin.json"
-hash = "ee962951c56bb1f93dc49a33c9b69421a57b511d3a1611049cbab3e7cacce0c2"
-
-[[files]]
-file = "kubejs/assets/currency/textures/block/currencyblock.png"
-hash = "1d501c6484efd38575c7b1392fcc96eb1ec77252d9629240ae9832a69fcfa612"
-
-[[files]]
-file = "kubejs/assets/currency/textures/item/currencycoin.png"
-hash = "8f8de8e02625188260f938b551055f101e062c6eb0735efa4dd9a86f6ad22b09"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/quests/grappling_hook.png"
-hash = "43a31c7faa37dca84b1529f3abd8b01855755edf261c8a5a18e2209d2410bcb4"
-
-[[files]]
 file = "kubejs/client_scripts/removeEMI.js"
-hash = "b6ea708d6171b274f6e129dcefca1731bd8acd4f2c70573f2af268c997b55f66"
-
-[[files]]
-file = "kubejs/data/selling_bin/data_maps/item/selling_bin_currencies.json"
-hash = "13f84b7b4080cbcf255d1c53acf22822c8ae68f7dff9966b9b2d183483ce40d2"
+hash = "4caa63f2bbe682c4a7a8aba36304c8e58d7283855bfa33981392135b7d10c231"
 
 [[files]]
 file = "kubejs/data/selling_bin/data_maps/item/selling_bin_value.json"
-hash = "784efe394645ed408d3b327eef72316092e2e8ce1990db993199bbeddc315ced"
-
-[[files]]
-file = "kubejs/startup_scripts/currency/core.js"
-hash = "212741fb5322ba01fb58509bcc4069143fe3db724daba989423f94ba358d4dd9"
+hash = "799554403a73d615a184dfa1e06ca4b5f92e019c72a12b50b6bedf169fc2ff40"
 
 [[files]]
 file = "kubejs/startup_scripts/globalRemovedItems.js"
-hash = "9f76d2d2211fed1cde63b15419fc06c84888159c2c8645a07f1afb34d325cbff"
-
-[[files]]
-file = "kubejs/startup_scripts/noDispenserBonemeal.js"
-hash = "747716889bc272ae387f32f071de4a1faff5e61b864bd1d3d09c2652a48a6ee8"
+hash = "de0984a6effbfdaf9bde581f2ed812669ac81de396e3286e47b8414cd8835516"
 
 [[files]]
 file = "mods/alexs-mobs-up.pw.toml"
