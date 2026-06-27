@@ -145,10 +145,6 @@ file = "config/fancymenu/assets/button_inactive_center.png"
 hash = "64f9e44275770c7e8731c7eb1810c318436fb6639e8b71c4b6a96a70dc34405c"
 
 [[files]]
-file = "config/fancymenu/assets/loading.png"
-hash = "e0f4e4c3dae1048a6030025b0e1726967afcf400c893fbc89a32979fff4002ef"
-
-[[files]]
 file = "config/fancymenu/assets/mainmenu.png"
 hash = "fc21921fc6e7469b2900b6689848af6b239a2970b9afe761f2eea0c6c53c34c9"
 
@@ -294,7 +290,7 @@ hash = "d66fe8fede09e111cb983776ad1239bf036ff82b0707fa359d89d222bb29fdd8"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "3dd193cfe66cece2c6b0082bf45eba870032ad62f9d7a1eac8da76e7dfd7bced"
+hash = "dfa412324c9fd289ebd6adbc4e49e6e3ae69c5808c831f9dbc9e279d3f8c0947"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -926,7 +922,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
+hash = "1e5d37a3fb41e78708215f521e8b3f3a661b2157bd9e15abf4c39c4eb87621ba"
 metafile = true
 
 [[files]]
@@ -1066,7 +1062,12 @@ metafile = true
 
 [[files]]
 file = "mods/moogs-structure-lib.pw.toml"
-hash = "8e9b61ed721c95cf7fdca46979bb20fdb12aaecccccc92a7822e5ce7a6cbca19"
+hash = "da57ae4d0ddbfecbe5957422b19687873d61dcc6be6c46f58f1f0a064a5c1467"
+metafile = true
+
+[[files]]
+file = "mods/moogs-voyager-structures.pw.toml"
+hash = "1ff330b182840239f0216132374854c2a8bf346c6ce9e7623f93b333df973d7d"
 metafile = true
 
 [[files]]
@@ -1216,7 +1217,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
-hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+hash = "4cdd3a94451efd61ad53cec5019557042cc9a3bc455632aa931663b70850958a"
 metafile = true
 
 [[files]]
@@ -1255,5 +1256,45 @@ hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
 
 [[files]]
+file = "mods/yungs-api-neoforge.pw.toml"
+hash = "7cb2156566e58df780f1e1248bc7c336fda5be86d8e5828e3485b951e3934471"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-caves.pw.toml"
+hash = "10815a3aa6dc436f8aa9b86dbb68368fbbcaff26f15fb06113b519b678e1a480"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-dungeons-neoforge.pw.toml"
+hash = "c79a58526fab23bdac3e652a1696cb603fc94197c1173ebe48743659ee5656a5"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-jungle-temples-neoforge.pw.toml"
+hash = "45b08aedb7926aaf079a98b037265aca98bff49a13cc1eb9740bec40f0f02cfb"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-mineshafts-neoforge.pw.toml"
+hash = "c2053af07ae41f932040eaa078a7d22438cbb0bf16ebcf0926740dd8777f9498"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-nether-fortresses-neoforge.pw.toml"
+hash = "e467ffe83dd4e8d2d64f41d46067ddf52d0ca6f3271c56e5858829c15def3e3e"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-ocean-monuments-neoforge.pw.toml"
+hash = "499a8fffeca4ff272bfcc0ad266add8fb729a6419fec921d4b8a63f7b9bc2877"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-strongholds-neoforge.pw.toml"
+hash = "1dbfc17c73001270c3c1f60c02cd72b3f5652ff02557a5f0586fd638a083cd36"
+metafile = true
+
+[[files]]
 file = "options.txt"
-hash = "5556d207598097dfd3a01119da4916e0d9061f7461ff188f8d30c86453bc9d46"
+hash = "4a395ce450f2860e565ecc13d31fbf5cd03e277cb8ec983dff4986d92521b5d2"
