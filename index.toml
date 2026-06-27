@@ -1216,6 +1216,11 @@ hash = "8eaab8f312c3a1a72e7d9e9123bbfef2a7dcac7dd7d8f9eab72fb7c0d25b021e"
 metafile = true
 
 [[files]]
+file = "mods/terrablender-neoforge.pw.toml"
+hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "4cdd3a94451efd61ad53cec5019557042cc9a3bc455632aa931663b70850958a"
 metafile = true
