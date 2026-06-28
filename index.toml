@@ -14,7 +14,7 @@ hash = "02a0fadf11aa58e9f43f54987e312c213bdc36eb78f907c53b0d76761341b341"
 
 [[files]]
 file = "config/backpacked.backpack.toml"
-hash = "c744b2f90792a342c286940cb5d41cb4709b17ed1345e2170993c879d565c4ff"
+hash = "fdb069cf4d91bef873585bf8399dbb1eb946404e634f68d8efe50d374b56e4dc"
 
 [[files]]
 file = "config/backpacked.client.toml"
@@ -541,20 +541,8 @@ file = "config/starcatcher-client.toml"
 hash = "30aea6e5482bb7e890455741578b03672f357d5296c6cfe2e12309e57eac821b"
 
 [[files]]
-file = "config/structurify.json"
-hash = "69c97c9d8e12420714182fec77ca15d99d03f6ee9037d9bc8807657c281a5af1"
-
-[[files]]
-file = "config/structurify.json_alloff"
-hash = "ba1e510c38cd8a9a1edd4212b2083561eb0bbb7d2055c09ae1eb9a0bb1891dde"
-
-[[files]]
-file = "config/structurify.json_allon"
-hash = "f7eb0293dc833576bb513539351b24c310e2aabac8890807a76cf678ba9be0ee"
-
-[[files]]
-file = "config/structurify.json_nyamuras"
-hash = "69c97c9d8e12420714182fec77ca15d99d03f6ee9037d9bc8807657c281a5af1"
+file = "config/starcatcher-server.toml"
+hash = "dc2fb0e3d020ca58bea2abc66608176f75eade53dd6c0f519e9579c95feb76a3"
 
 [[files]]
 file = "config/subtle_effects/blocks.toml"

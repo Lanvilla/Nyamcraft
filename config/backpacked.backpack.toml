@@ -33,7 +33,7 @@
 		paymentType = "ITEM"
 		# Only applicable if paymentType is set to ITEM. This option will control the item used when paying
 		# to unlock new slots.
-		paymentItem = "minecraft:emerald_block"
+		paymentItem = "currency:currencyblock"
 		# The interpolate method to use when calculating the cost of unlocking a slot. The cost
 		# of slots increases the more slots that are unlocked. This function determines how steep
 		# the price will increase after each slot is unlocked. The interpolated value is calculated
@@ -73,7 +73,7 @@
 		# numbers only. See customCostsSelectionFunction property to set the behaviour of
 		# how values are selected from the custom costs list.
 		# 
-		customCosts = [1, 2, 4, 8]
+		customCosts = [4, 4, 4]
 		# Determines how the cost value is selected from the customCosts list.
 		# 
 		# Possible Functions:
@@ -179,7 +179,7 @@
 			paymentType = "ITEM"
 			# Only applicable if paymentType is set to ITEM. This option will control the item used when paying
 			# to unlock new slots.
-			paymentItem = "minecraft:emerald"
+			paymentItem = "currency:currencycoin"
 			# The interpolate method to use when calculating the cost of unlocking a slot. The cost
 			# of slots increases the more slots that are unlocked. This function determines how steep
 			# the price will increase after each slot is unlocked. The interpolated value is calculated
@@ -219,7 +219,11 @@
 			# numbers only. See customCostsSelectionFunction property to set the behaviour of
 			# how values are selected from the custom costs list.
 			# 
-			customCosts = [1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,5,5,5,5,5,7,7,7,7,7,7,7,7,7,10,10,10,10,10,10,10,10,10]
+			customCosts = [	1,1,1,1,1,1,1,1,1,
+					1,1,1,1,2,2,2,2,2,
+					3,3,3,3,5,5,5,5,5,
+					7,7,7,7,7,7,7,7,7,
+					9,9,9,9,9,9,9,9,9]
 			# Determines how the cost value is selected from the customCosts list.
 			# 
 			# Possible Functions:
@@ -309,7 +313,7 @@
 		paymentType = "ITEM"
 		# Only applicable if paymentType is set to ITEM. This option will control the item used when paying
 		# to unlock new slots.
-		paymentItem = "minecraft:emerald_block"
+		paymentItem = "currency:currencyblock"
 		# The interpolate method to use when calculating the cost of unlocking a slot. The cost
 		# of slots increases the more slots that are unlocked. This function determines how steep
 		# the price will increase after each slot is unlocked. The interpolated value is calculated
@@ -349,7 +353,7 @@
 		# numbers only. See customCostsSelectionFunction property to set the behaviour of
 		# how values are selected from the custom costs list.
 		# 
-		customCosts = [4, 8, 16]
+		customCosts = [2, 4, 8]
 		# Determines how the cost value is selected from the customCosts list.
 		# 
 		# Possible Functions:
