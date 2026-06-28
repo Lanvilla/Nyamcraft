@@ -45,6 +45,18 @@ file = "config/biome_replacer.properties"
 hash = "5b81087970a9ae819e80d9a89f817de5d3dfaba7cc1aa7d48f2131b3050eda35"
 
 [[files]]
+file = "config/biomesoplenty/biome_toggles.json"
+hash = "990e8a0074e9bc067691c72a947f1610c8bd575c9a7b972abcde0a87a45e25bf"
+
+[[files]]
+file = "config/biomesoplenty/gameplay.toml"
+hash = "b9abd11468b8f1a0a56024f78e27cc6d79c2cce4cce8754b1ba4f0f44289a741"
+
+[[files]]
+file = "config/biomesoplenty/generation.toml"
+hash = "428c8be557854161e82b21b5654d2865b9b0c53bba969f20398568f94d4ae030"
+
+[[files]]
 file = "config/borderlesswindow-client.toml"
 hash = "89996d5c6dfb1d45219a18ecc58599addfae6c5dcdc04357a8e8f345d7a4ab81"
 
@@ -681,16 +693,264 @@ file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
+file = "kubejs/assets/currency/models/block/currencyblock.json"
+hash = "387c61efe83894ecfe3903f55447592f492eacf7fd803f3a2d10f4c096bd0a67"
+
+[[files]]
+file = "kubejs/assets/currency/models/item/currencycoin.json"
+hash = "ee962951c56bb1f93dc49a33c9b69421a57b511d3a1611049cbab3e7cacce0c2"
+
+[[files]]
+file = "kubejs/assets/currency/textures/block/currencyblock.png"
+hash = "1d501c6484efd38575c7b1392fcc96eb1ec77252d9629240ae9832a69fcfa612"
+
+[[files]]
+file = "kubejs/assets/currency/textures/item/currencycoin.png"
+hash = "8f8de8e02625188260f938b551055f101e062c6eb0735efa4dd9a86f6ad22b09"
+
+[[files]]
 file = "kubejs/client_scripts/removeEMI.js"
 hash = "4caa63f2bbe682c4a7a8aba36304c8e58d7283855bfa33981392135b7d10c231"
+
+[[files]]
+file = "kubejs/data/selling_bin/data_maps/item/selling_bin_currencies.json"
+hash = "13f84b7b4080cbcf255d1c53acf22822c8ae68f7dff9966b9b2d183483ce40d2"
 
 [[files]]
 file = "kubejs/data/selling_bin/data_maps/item/selling_bin_value.json"
 hash = "799554403a73d615a184dfa1e06ca4b5f92e019c72a12b50b6bedf169fc2ff40"
 
 [[files]]
+file = "kubejs/server_scripts/block_drops/alpine_salt_ore.js"
+hash = "44dd4deddb39400acf5f66f343a8d081ad0403751de16dc44fda1957c51ae3c6"
+
+[[files]]
+file = "kubejs/server_scripts/block_drops/barley.js"
+hash = "ecb0abef1e1459f42c3d6c8676ece6c487e913cf5d6f8e846ddf3c285a12adaa"
+
+[[files]]
+file = "kubejs/server_scripts/block_drops/cabbage.js"
+hash = "64fc29ff5221beb7af6b67cacda78fcef63be9f72ceaf0f1fa66b4d6daee3e02"
+
+[[files]]
+file = "kubejs/server_scripts/block_drops/coffee.js"
+hash = "e859e3f8b595924251673e74e73a053823dc880a8548264a7a4358b00b877590"
+
+[[files]]
+file = "kubejs/server_scripts/block_drops/corn.js"
+hash = "01c76c23c505cf6e6c521cbeb70bb5f2a03c692f58479443fb09274a5ee58207"
+
+[[files]]
+file = "kubejs/server_scripts/block_drops/grape.js"
+hash = "2e58d87a3bc84ca4ad28606d6e5bdac92782e1c0c3ada3ffc1d3182b7096af5d"
+
+[[files]]
+file = "kubejs/server_scripts/block_drops/onion.js"
+hash = "eb97bf1e6051ad330b7dac756c00e4220cdf46a8fca7d741d3c127d64d4249c9"
+
+[[files]]
+file = "kubejs/server_scripts/block_drops/rice.js"
+hash = "963633ebae8e58271cc1e85a93abf611f5946acdbafd24c95140f83a72362dd1"
+
+[[files]]
+file = "kubejs/server_scripts/block_drops/scarecrow.js"
+hash = "c4d045aff95c0bb9da1047244680f68da11b614091a71b3086f02fac1bce05a4"
+
+[[files]]
+file = "kubejs/server_scripts/block_drops/strawberry.js"
+hash = "e203b2e2b298badb4d834d6b628b4127d6f260c3b665c0dbc238ab8e42de4aef"
+
+[[files]]
+file = "kubejs/server_scripts/block_drops/tomato.js"
+hash = "7d70fe1dea93681e1d916f4200fadfa28d7a2348bb2abd2165e86cfae8dc0228"
+
+[[files]]
+file = "kubejs/server_scripts/currency/recipes.js"
+hash = "88b0af40d239afb02f0a3f30a9874c57c9d277e5430bcee3442fd3f43c90da09"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/craftingbowl/butter.js"
+hash = "607a93a0c52d2dd0189619c69aeaf9c3994a4bacf2084845badb3a8fb9788eb9"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/croptopia/dough.js"
+hash = "1ae25c959aa76abc4a79b2e7d33676f9a62bc4fbfbd744d9a5ce4492b2b4190d"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/croptopia/wine.js"
+hash = "6774a37886efaae94a06edff506a4ab71c012a791dd71062ef5184dad3e2dc0d"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/drying/dried_barley.js"
+hash = "291d5d42b9e6166603b576efe6c11451002c4e0c50707a4eab49afe9153b3b4b"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/end_stone.js"
+hash = "1870dec90c0318b305d91f9f5e4aecde0aae69ef2f6ac27c583a8f7ab6b2e2d9"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/hosomaki.js"
+hash = "018c3083036cf39ca87f6f3622585a92a29d183e4dc06b90e1804f4a9b9d0ea3"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/hosomaki_common.js"
+hash = "d7afb8955bc648336dae94fa95a8298da9bdb70afa48194678fc888a3c053422"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/hosomaki_epic.js"
+hash = "af67f92eb26dc648a8cb7a0138421e636f31815d2211235b2553003855ab37a0"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/hosomaki_legendary.js"
+hash = "4785535954b308fdcaa2713adc1ab6db6b75f34dfc6bcfc53ac71b50c9dce811"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/hosomaki_rare.js"
+hash = "2daef5c17b5219921479f40c5327e2510a137ab2d5e1e7334e0f19e8f1115c7b"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/hosomaki_uncommon.js"
+hash = "ce98df05f4ab33ceddeb43cc7a628ee03fe9ec473ee4910d3bb5c90d7a8d003c"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/nigiri.js"
+hash = "bc4d7429d6ce6cbcf0ff43987445602f24d1384f7860a38f008551046576d196"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/nigiri_common.js"
+hash = "d7c29f83cae3126b5b7c9482435ce7293344a6fb1ad8a5b7119aaf6d846f00a6"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/nigiri_epic.js"
+hash = "5508a5ecf228601a2097c4a7cccbfa52b3e3b8726ab6d81788bdc0214d395ffb"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/nigiri_legendary.js"
+hash = "4cb5071ea50369fe2c90b5d30ab2610943be90ce8cad3a65be7f66d5190c1753"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/nigiri_rare.js"
+hash = "fef6371f4e3c759ae2b46ed4afd79ce30ab601f82fee21488d25eb0a750373a3"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/nigiri_uncommon.js"
+hash = "c1fbc95c26f0e27f44ff519de96eebe77e5992715f579b110a7483222eeeb00b"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/spore_nigiri.js"
+hash = "2161de8a94c326a8d128dbe348e55c9025c409a4d4cd223f01435c292de82dfa"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/steak_with_mushrooms.js"
+hash = "f4d15c715965be66b73083ac3272fc1d77852a0cea28824e039ba8bef17bb456"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/temaki.js"
+hash = "6436085f8b10b32884b307d760259a19c9ea78480dd5cb161f33a4dfe3c94f3b"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/temaki_common.js"
+hash = "814ee088ce04d1976c47b26f9bcc1a77b8ab25d6e86854c52585adcae6bd17d2"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/temaki_epic.js"
+hash = "6b6c82cb946cb79ddce802f2ad4d781bd800c6203a8d793551c22ccebcc6fad3"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/temaki_legendary.js"
+hash = "e4b4aaa85a4c7b360ecbfdaf458395b353aa4608145dad22ae7b0ef4ba1c5728"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/temaki_rare.js"
+hash = "f919908b083509e8b49323f746a523080b06d62948699e5b8ad4863cb5b254be"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/temaki_uncommon.js"
+hash = "979665687d75c4f252ee9f27c2206638fb6d08fce7058e43fb40d3d97294be70"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/uramaki.js"
+hash = "405f84c9bd61e8555e640b4b609cec8aa45710d2f27a090f19e82cb3b9cbac14"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/uramaki_common.js"
+hash = "c664c53abffa23c05df25da3b123f8c8907af5668c26dcfab2caa868d42537d1"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/uramaki_epic.js"
+hash = "4d3c875c49167247010c53dfadd7217bbe8764cce60a63af66ba380418d88b0f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/uramaki_legendary.js"
+hash = "4aa919064877322bcd388b13eaf05e14beb2704dc3d4d8b516c6aeb2dda5aa65"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/uramaki_rare.js"
+hash = "f68b1f63a71ca17bc738893aed4ed5c86da232fe2a5eb0a1888b1a1509ff0d61"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/cooking/uramaki_uncommon.js"
+hash = "b61f7d3561cf8ac7372748cb73cbe16312377cbf2070eb754dbda29100a3fa69"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/farmersdelight/crafting.js"
+hash = "5cdf0102601994e5820159fc3712aa4dc473cd19fc8a448b574fffb51910d982"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mincer/alpine_salt_ore.js"
+hash = "aec7f92c6e0bbd069ef09f2c6bdbac97601d638aed775dc069d4e84cedc49bb0"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/modifyRecipes.js"
+hash = "dc09eab66886899bf44e8d7a06f16c3ba7e60dcac1c14359d4194b87ba99dfb0"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/potcooking/barley_soup.js"
+hash = "c57e51edb2380c62a3b945e9162e9379c8e96478c052c62e0942c058e14ead0c"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/potcooking/strawberry_jam.js"
+hash = "5b76d3288472dd1f1ef09928f63a2571519592281c42c3e19bed75bf7b730e7c"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/removeRecipes.js"
+hash = "cc620add4d485486a6ee8df5896396cfc9534fc6eb8d24696a8a665fffd642cb"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/roaster/bacon_with_eggs.js"
+hash = "d3368cee62e0611c0d97e545b6cec5525e09b4c47c3292884664baaaaa2a77a4"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/roaster/chicken_wrapped_in_bacon.js"
+hash = "016bdf12aa906852eebe9fdaf9674301b99631c12bc90611841caaf67dcd4a0e"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/roaster/oat_pancake.js"
+hash = "acf9eb1e63fed7c1e9a4e7dfd357f1fe5f0b0043d257939671bb78f79ea11b92"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/stove/grilled_bacon_sandwich.js"
+hash = "40f0fee55be0b96a08a92b010f4fab0a63d6eec48ae930ab6a96dea22b091559"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/stove/linzer_tart.js"
+hash = "3b1b29e1312aeb1c090b72fc1aa17c7af88d5b05a310d556dd275effef11b47c"
+
+[[files]]
+file = "kubejs/server_scripts/tags/beerTags.js"
+hash = "7a33f60f6ecb5a28ff808a2e472aea4e531f072371fcd9a70238dc1e56992b31"
+
+[[files]]
+file = "kubejs/server_scripts/tags/cropTags.js"
+hash = "bfe158d9996c593cce870bf1a24cfe3c084101e643557f64a2e464bc6c9d8cb8"
+
+[[files]]
+file = "kubejs/startup_scripts/currency/core.js"
+hash = "a16d05127a2aab9084308ca7b7fb2d10fddf9d0fc4ed660a2ae1930ca3b3f25b"
+
+[[files]]
 file = "kubejs/startup_scripts/globalRemovedItems.js"
-hash = "de0984a6effbfdaf9bde581f2ed812669ac81de396e3286e47b8414cd8835516"
+hash = "1cc9be1340e95d5a19bcafe388b226fbf149d84b21911ce1361dbe2f1feb354e"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -753,8 +1013,18 @@ hash = "ba1c3390035b480b505a6820e2fb320be2227220d348d336b1b271d5222da2f1"
 metafile = true
 
 [[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "f6f723c2d15da3b36a2c29408deb914f6c4bdbe4a20aa652f3f07642011fce8e"
+metafile = true
+
+[[files]]
 file = "mods/borderless-window.pw.toml"
 hash = "c15cf68301be3c07cd25295759f1e1a59aae0823894e07b30f4394cf1f990e8e"
+metafile = true
+
+[[files]]
+file = "mods/choicetheorems-overhauled-village.pw.toml"
+hash = "000217304bbb5971cb9dde9081fcb5ea92cc7edcae83321effdcd92b36e2f490"
 metafile = true
 
 [[files]]
@@ -778,16 +1048,6 @@ hash = "e1979752a25bce7b7e3d1ca065e534d21c162c5630fe0b5c6ac73b07e0af7bce"
 metafile = true
 
 [[files]]
-file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "ad35139007c512c76be9945e89ad86e27b3d13bdefb31931486a2a1348321830"
-metafile = true
-
-[[files]]
-file = "mods/corpse.pw.toml"
-hash = "8e671fbd3a5460a61073cced391ec08efc6b67d765e49015eea45a1f1db159a0"
-metafile = true
-
-[[files]]
 file = "mods/croptopia-delight.pw.toml"
 hash = "7337e191838e7563878f6ec1380c68a1c491fbdbe304b31e7c8438bf61910cef"
 metafile = true
@@ -795,11 +1055,6 @@ metafile = true
 [[files]]
 file = "mods/croptopia.pw.toml"
 hash = "f4a74eca4d76cbe003e7fd3832ae57a390177813dfb01f30944a2feed97d6bcf"
-metafile = true
-
-[[files]]
-file = "mods/ct-overhaul-village.pw.toml"
-hash = "f86855a3645203b1d477cdb6a55b7b1e0bed7cc744207b37bb5d59bc5891af56"
 metafile = true
 
 [[files]]

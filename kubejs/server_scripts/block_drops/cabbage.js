@@ -1,0 +1,12 @@
+LootJS.modifiers((event) => {
+	event.addBlockModifier("farmersdelight:wild_cabbage").replaceLoot("farmersdelight:cabbage", "croptopia:cabbage")
+	event.addBlockModifier("farmersdelight:wild_cabbage").replaceLoot("farmersdelight:cabbage_seeds", "croptopia:cabbage_seed")
+	event.addBlockModifier("farmersdelight:wild_cabbage").replaceLoot("farmersdelight:wild_cabbages", "croptopia:cabbage")
+	event.addBlockModifier("farmersdelight:cabbages").replaceLoot("farmersdelight:cabbage_seeds", "croptopia:cabbage_seed")
+	event.addBlockModifier("farmersdelight:cabbages").replaceLoot("farmersdelight:cabbage", "croptopia:cabbage")
+	event.addBlockModifier("farm_and_charm:lettuce_seeds").replaceLoot("farm_and_charm:lettuce", "croptopia:cabbage")
+	event.addBlockModifier("farm_and_charm:lettuce_crop").replaceLoot("farm_and_charm:lettuce", "3x croptopia:cabbage")
+	event.addBlockModifier("farm_and_charm:wild_lettuce").replaceLoot("farm_and_charm:wild_lettuce", "croptopia:cabbage")
+	event.addBlockModifier("farm_and_charm:wild_lettuce").replaceLoot("farm_and_charm:lettuce_seeds", "croptopia:cabbage")
+	event.addBlockModifier("farm_and_charm:wild_lettuce").replaceLoot("farm_and_charm:lettuce", "croptopia:cabbage")
+})

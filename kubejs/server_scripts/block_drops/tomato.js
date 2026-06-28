@@ -1,0 +1,11 @@
+LootJS.modifiers((event) => {
+	event.addBlockModifier("farmersdelight:wild_tomatoes").replaceLoot("farmersdelight:tomato", "croptopia:tomato")
+	event.addBlockModifier("farmersdelight:wild_tomatoes").replaceLoot("farmersdelight:tomato_seeds", "croptopia:tomato_seed")
+	event.addBlockModifier("farmersdelight:wild_tomatoes").replaceLoot("farmersdelight:wild_tomatoes", "croptopia:tomato_seed")
+	event.addBlockModifier("farmersdelight:tomatoes").replaceLoot("farmersdelight:tomato", "croptopia:tomato")
+	event.addBlockModifier("farmersdelight:tomatoes").replaceLoot("farmersdelight:tomato_seeds", "croptopia:tomato_seed")
+	event.addBlockModifier("farm_and_charm:wild_tomatoes").replaceLoot("farm_and_charm:tomato", "croptopia:tomato")
+	event.addBlockModifier("farm_and_charm:wild_tomatoes").replaceLoot("farm_and_charm:tomato_seeds", "croptopia:tomato_seed")
+	event.addBlockModifier("farm_and_charm:tomato_crop").replaceLoot("farm_and_charm:tomato", "croptopia:tomato")
+	event.addBlockModifier("farm_and_charm:tomato_crop").replaceLoot("farm_and_charm:tomato_seeds", "croptopia:tomato_seed")
+})

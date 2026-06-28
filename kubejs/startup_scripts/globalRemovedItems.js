@@ -1,7 +1,7 @@
 global.removedItems = [
 	//create
-	"create:wheat_flour",
-	"create:dough",
+	//"create:wheat_flour",
+	//"create:dough",
 	//croptopia
 	"croptopia:dough",
 	"croptopia:hops",

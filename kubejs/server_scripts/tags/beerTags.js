@@ -1,0 +1,11 @@
+ServerEvents.tags('item', (event) => {
+	event.add('brewery:beer', 'brewery:whiskey_jojannik')
+	event.add('brewery:beer', 'brewery:whiskey_lilitusinglemalt')
+	event.add('brewery:beer', 'brewery:whiskey_cristelwalker')
+	event.add('brewery:beer', 'brewery:whiskey_maggoallan')
+	event.add('brewery:beer', 'brewery:whiskey_carrasconlabel')
+	event.add('brewery:beer', 'brewery:whiskey_ak')
+	event.add('brewery:beer', 'brewery:whiskey_highland_hearth')
+	event.add('brewery:beer', 'brewery:whiskey_smokey_reverie')
+	event.add('brewery:beer', 'brewery:whiskey_jamesons_malt')
+})
