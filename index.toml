@@ -1357,11 +1357,6 @@ hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
 metafile = true
 
 [[files]]
-file = "mods/natures-spirit.pw.toml"
-hash = "e5c9d8b97345998f99cf6da31b41c5cf4875361bc94c3354be2299730b7acb04"
-metafile = true
-
-[[files]]
 file = "mods/netherex.pw.toml"
 hash = "9a87e6996e84b19be3a28c30d681e4a911f8a1e150022654d08991d6c8409498"
 metafile = true
