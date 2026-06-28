@@ -785,10 +785,6 @@ file = "kubejs/server_scripts/recipes/drying/dried_barley.js"
 hash = "291d5d42b9e6166603b576efe6c11451002c4e0c50707a4eab49afe9153b3b4b"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/end_stone.js"
-hash = "1870dec90c0318b305d91f9f5e4aecde0aae69ef2f6ac27c583a8f7ab6b2e2d9"
-
-[[files]]
 file = "kubejs/server_scripts/recipes/farmersdelight/cooking/hosomaki.js"
 hash = "018c3083036cf39ca87f6f3622585a92a29d183e4dc06b90e1804f4a9b9d0ea3"
 
@@ -914,7 +910,7 @@ hash = "5b76d3288472dd1f1ef09928f63a2571519592281c42c3e19bed75bf7b730e7c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/removeRecipes.js"
-hash = "cc620add4d485486a6ee8df5896396cfc9534fc6eb8d24696a8a665fffd642cb"
+hash = "7339ea242c34446fe3e77bbd798c89cdeb2884186f9d487e56c3e24f26fb53ca"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/roaster/bacon_with_eggs.js"
