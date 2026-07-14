@@ -1,0 +1,13 @@
+name = "Multiworld (Fabric & Forge)"
+filename = "Multiworld-NeoForged-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "53c786039efa88f8880caf1d6083d0ee95fced44"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7064305
+project-id = 511765
