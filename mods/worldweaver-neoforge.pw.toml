@@ -1,13 +1,13 @@
 name = "WorldWeaver Neoforge"
-filename = "worldweaver-21.0.22.jar"
+filename = "worldweaver-21.0.23.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "820ff9952dc8db56c9bd11a37d8cf193e952dd6e"
+hash = "8b44d4b6dd9a53dd433280ffc8fcb98826eb5703"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8362501
+file-id = 8432684
 project-id = 1422284

@@ -37,10 +37,6 @@ file = "config/backpacked.wandering_trader.toml"
 hash = "d9df9b5551793b54df05871ca09feb0f38f02224e328a934ddba573ec0b5b157"
 
 [[files]]
-file = "config/bakery-common.toml"
-hash = "4d5bce6ceb2c092e593b9d1f2c83dbe848f84bb0fd8cc2eaa16792653f144d2e"
-
-[[files]]
 file = "config/better-advanced-tooltips-client.toml"
 hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
 
@@ -409,14 +405,6 @@ file = "config/herbalbrews-common.toml"
 hash = "2885a870b53534c8f8d3c580973a1fee8a303e7919b482b7ccf946bb6822d6ba"
 
 [[files]]
-file = "config/iris-excluded.json"
-hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
-
-[[files]]
-file = "config/iris.properties"
-hash = "13c84ee66415566cbda1b9e9a05f95ad8a3f56a98b173c27750b94d49489cfe6"
-
-[[files]]
 file = "config/libtooltips-client.toml"
 hash = "142ba643d63cd3fb2c5a8650bc795b790b161c1cb02e3633d511befe3be675a6"
 
@@ -483,14 +471,6 @@ hash = "ff3c6d9c7f4916bf4e7de955232dd727c795b5d0c97af3810555178394cdc9af"
 [[files]]
 file = "config/seamless_sleep.toml"
 hash = "9eb1bc978773313e9b81c3b8a790a342333affd7eba82c6344be14ab1f839c6f"
-
-[[files]]
-file = "config/selling_bin-client.toml"
-hash = "638b02fb58f2a76cc7f281fd8e40129ff47f758ee9bc3e735b2fcfade03e204a"
-
-[[files]]
-file = "config/smoothskies.json"
-hash = "e61481505d12641c95190b397db1314e2f1d5ed6b322913cc53c634730b6b962"
 
 [[files]]
 file = "config/snowundertrees-common.toml"
@@ -961,7 +941,7 @@ metafile = true
 
 [[files]]
 file = "mods/amplified-nether.pw.toml"
-hash = "786993e5bb314f53039578ace75997775d59b1c3766acd506781c1b170b0d791"
+hash = "9efd2467725934e660f256346950d4e10ca44f034475ce8909a29fe0790dd5cc"
 metafile = true
 
 [[files]]
@@ -991,7 +971,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "b594dc1097013a09140b354465c2a85e5082f72a8b5c166ed8e7ebd60e30d187"
+hash = "5906ab9415bb5d894dc41bc4b0035d3c22e261877cf8578c2c4c45af8b4bb159"
 metafile = true
 
 [[files]]
@@ -1336,7 +1316,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "141584f0498f59dc445d163b82e148b339a7948927e476c6183b40da19c05799"
+hash = "a0a2036a901c1d61589768d62bc92d0cd630a40e9dfe92f45aefdc835c0c808d"
 metafile = true
 
 [[files]]
@@ -1426,7 +1406,7 @@ metafile = true
 
 [[files]]
 file = "mods/reconnectible-chains.pw.toml"
-hash = "ac2ef95592de717006df6429d1e0578c303b9e32ae887cf4c600b0c2a8ef035a"
+hash = "953f1447791cdadbdca5fd80caf386e02896f039b883e444e3947a151636c9eb"
 metafile = true
 
 [[files]]
@@ -1491,12 +1471,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "e6ff1f816faa83ba09dd6bbc3ad72d46c77379211ff0de16b882fc758e32bbab"
+hash = "5e3dbf65e027851e8240dbe504270b4d11d5db5401220958ecfbc9a80d3302be"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "880dae4e4c63390783352f482cd0dee5cd1524a4f1e0ecb0c46fc1118eca192f"
+hash = "5d6301cb7b526092d946a0d9f277e11ebb030a76568a7fff7f29545f91c35b0b"
 metafile = true
 
 [[files]]
@@ -1511,12 +1491,12 @@ metafile = true
 
 [[files]]
 file = "mods/starcatcher.pw.toml"
-hash = "5c4eac29f425bbe37d61ee26399ecd81acfab82fbaa52637fd9684054f0fae2e"
+hash = "14bd8d81dd8e2e313586273fd5b160ec0c3e33152b9a62af72c89c73284b4848"
 metafile = true
 
 [[files]]
 file = "mods/starcatchers-delight.pw.toml"
-hash = "2b3a2c2f9a5f815473a388084f869af13ab23a57875a9f91b1d2913e5ca5379e"
+hash = "f62879170d2b77e7d1c628c22b89ba3c8c744e40209b22a964b616d30f649ce2"
 metafile = true
 
 [[files]]
@@ -1551,7 +1531,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldweaver-neoforge.pw.toml"
-hash = "edbf9e9a9571d7450ec693e272fe6253540b66cbbe844d52a19c3a3917eb78a6"
+hash = "a6ecd6bd9f80f5ae769dfd0742a7d8f5e874480602ad45b2ad083b9571fd5c34"
 metafile = true
 
 [[files]]
@@ -1561,12 +1541,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "3d282394e31d1144cffcaa864903da227847c59184f3b508e8e3b594f2bdd083"
+hash = "f591419fdc0da19939296f17d8d65d37d6c038476f65b07f341922f568595f78"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "5677b68b08765dcdf61fbac6e519c790c29d453d6cfd07016b4e09247db6aa34"
+hash = "d7741a98f8178b9c32f62b0eb334cac2961ae95bfe5fdcec060918bbc9b0311c"
 metafile = true
 
 [[files]]
