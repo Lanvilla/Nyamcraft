@@ -1231,7 +1231,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
+hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
@@ -1471,12 +1471,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "6d814cb2fe047fb85fc51190ef5217dfd468afea0865565767dae445b98dc174"
+hash = "98ca9034a0cf86a04f68bf15730bcfcc349b1ac661874a3358b7ed2952bd73aa"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "9894d64f7a94f2f6467f6f2e537332dd287b77c293d35797b39ab5b3a00b0149"
+hash = "1692d298e28e31cd6a7259a304b1a97f51c1a7d9143fee4da92fabaffdf57fb7"
 metafile = true
 
 [[files]]
@@ -1507,11 +1507,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender-neoforge.pw.toml"
 hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
-metafile = true
-
-[[files]]
-file = "mods/tmrv.pw.toml"
-hash = "40f7d1c072b54e11492e7774835901d4f5d757b01cac54947657695f580afd3a"
 metafile = true
 
 [[files]]
