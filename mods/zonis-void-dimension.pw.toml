@@ -1,0 +1,13 @@
+name = "Zoni's Void Dimension"
+filename = "void_dimension-1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "329304936724929e7fac2ad2a8f72fd882966e6f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8427576
+project-id = 1247540

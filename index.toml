@@ -405,6 +405,14 @@ file = "config/herbalbrews-common.toml"
 hash = "2885a870b53534c8f8d3c580973a1fee8a303e7919b482b7ccf946bb6822d6ba"
 
 [[files]]
+file = "config/kiwi-client.yaml"
+hash = "01b2e92e2270d758990e756f853e8ce01abc4cd7b959df767deac76822d2e4b6"
+
+[[files]]
+file = "config/kiwi-common.yaml"
+hash = "48bca49edf4ee6b363fe56139eec197f36399fb87e73b71443959bdb8598a955"
+
+[[files]]
 file = "config/libtooltips-client.toml"
 hash = "142ba643d63cd3fb2c5a8650bc795b790b161c1cb02e3633d511befe3be675a6"
 
@@ -457,8 +465,8 @@ file = "config/neoforge-common.toml"
 hash = "fe878a2717a145cd890621eac5b3be1e1fd656f7ff9abc6e8d53f670d37474c4"
 
 [[files]]
-file = "config/netherex.jsonc"
-hash = "8c9967dd94db97e966fd9c807898611bcd31a96df04c68d9277499c4a73874cc"
+file = "config/pdgamerules-common.yaml"
+hash = "53a8c358721d55fd56b8dcb55d1a06748467366a1a53bbef6fcc4fd90d3df69e"
 
 [[files]]
 file = "config/ponder-client.toml"
@@ -655,6 +663,10 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
+
+[[files]]
+file = "config/yigd.json"
+hash = "68eaaf4ff208613a741da928e103f6c2ddb54b1fd3698de38086ba4354bdf6e4"
 
 [[files]]
 file = "kubejs/assets/currency/models/block/currencyblock.json"
@@ -922,7 +934,7 @@ hash = "a16d05127a2aab9084308ca7b7fb2d10fddf9d0fc4ed660a2ae1930ca3b3f25b"
 
 [[files]]
 file = "kubejs/startup_scripts/globalRemovedItems.js"
-hash = "1cc9be1340e95d5a19bcafe388b226fbf149d84b21911ce1361dbe2f1feb354e"
+hash = "7300637752b903f23a12a914bea9001952c2ef2f18a932445e976ce4a0bccd35"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -987,6 +999,11 @@ metafile = true
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
 hash = "0cafc790d0051af64aa01b16ca236b17ecedcfa0d79b2e3f54f3067b324b6d15"
+metafile = true
+
+[[files]]
+file = "mods/betternether-neoforge.pw.toml"
+hash = "1711c233da3310933c5043c24ad68ced113fa8df95341b5f0dff20192bf3a57c"
 metafile = true
 
 [[files]]
@@ -1072,6 +1089,11 @@ metafile = true
 [[files]]
 file = "mods/diagonal-windows.pw.toml"
 hash = "218dcd780f0251a15f78b097206ea22a519d57b974b39e2fdd43dce91ac07133"
+metafile = true
+
+[[files]]
+file = "mods/dimthreads.pw.toml"
+hash = "b67667c6ec8e3a755c0b05f81930e4f77b5a1269aed6afd4d2ae889ca05ae020"
 metafile = true
 
 [[files]]
@@ -1220,11 +1242,6 @@ hash = "e53646f88aeb6bd54c38db50da972abdac91e83c145a8f974107b0ca103b15bc"
 metafile = true
 
 [[files]]
-file = "mods/gravestone-mod.pw.toml"
-hash = "e88253c3633274c212b2c4628a26ba03ceba6afff561eb6f9488689fad4cad06"
-metafile = true
-
-[[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
 metafile = true
@@ -1237,6 +1254,16 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "b6e0a61fea06f8d6d8e1672cf07b682625c4b74efd548d5093cd9c1fed167eec"
+metafile = true
+
+[[files]]
+file = "mods/jamlib.pw.toml"
+hash = "af8428daaf08a29dec8f58f71bcd9e32bf564203754f71b184f6ebb8b09a0c77"
+metafile = true
+
+[[files]]
+file = "mods/kiwi.pw.toml"
+hash = "083c9d609335090c7fd62c13c146c0739306f597096e257fbdae6cdbb1917019"
 metafile = true
 
 [[files]]
@@ -1360,11 +1387,6 @@ hash = "02aa4dcb8fa24cffcd2182c66683c2a476a95abf53002373f953a49737a587e3"
 metafile = true
 
 [[files]]
-file = "mods/multiworld-mod.pw.toml"
-hash = "99079aa1e47787fb1f311f96fc9de4297b633b2e2bc4b54440fb5f4db81659f5"
-metafile = true
-
-[[files]]
 file = "mods/naturalist.pw.toml"
 hash = "bcd24eb0db2625488682ca538416a87a301543e5b68bff6633677a6780422db5"
 metafile = true
@@ -1372,16 +1394,6 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
-metafile = true
-
-[[files]]
-file = "mods/netherex.pw.toml"
-hash = "9a87e6996e84b19be3a28c30d681e4a911f8a1e150022654d08991d6c8409498"
-metafile = true
-
-[[files]]
-file = "mods/netherportalfix.pw.toml"
-hash = "5dc059422613b5645cb00e32d3bfd53de428c4939113d11ce2c844cb54165da6"
 metafile = true
 
 [[files]]
@@ -1395,6 +1407,11 @@ hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
 
 [[files]]
+file = "mods/per-world-game-rules.pw.toml"
+hash = "adeb8e2b2098842ae8ccb09de7de5f4a3ae1aec3ba7e6816723c7b8561c47c35"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
 metafile = true
@@ -1402,6 +1419,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6be463e57622036302e6555834d4b915e9d0407ce646a20edc770901111eca0d"
+metafile = true
+
+[[files]]
+file = "mods/re-animal.pw.toml"
+hash = "4f90db793978fd68d26346271767de42c29549b89e6d5f5266e54b0621e71cb0"
 metafile = true
 
 [[files]]
@@ -1425,6 +1447,11 @@ hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
 
 [[files]]
+file = "mods/rightclickharvest.pw.toml"
+hash = "9f0a36fc8540ac5d4b9fc3944b5dd4c0e097d0a189f84a95efc5f77cfd891c1f"
+metafile = true
+
+[[files]]
 file = "mods/seamless-sleep.pw.toml"
 hash = "2ad800931c3c659fc2b01ee237ac2c0edf0ace3cdb5ff2022ac69505629d99c2"
 metafile = true
@@ -1437,6 +1464,11 @@ metafile = true
 [[files]]
 file = "mods/serene-shrubbery.pw.toml"
 hash = "6215a724409895ab441601ae1237503370d0cb14edbd366f124158b785018ef1"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
+hash = "4f38a1932a493c7b100f13356c65bf1cc4d43e4cb3430d428202452d1d5800a0"
 metafile = true
 
 [[files]]
@@ -1550,6 +1582,11 @@ hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
 
 [[files]]
+file = "mods/youre-in-grave-danger.pw.toml"
+hash = "6b548f0402651a554b18cb6560bf85744d0827dfd001bb66232904e7962258e1"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api-neoforge.pw.toml"
 hash = "7cb2156566e58df780f1e1248bc7c336fda5be86d8e5828e3485b951e3934471"
 metafile = true
@@ -1587,6 +1624,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-strongholds-neoforge.pw.toml"
 hash = "1dbfc17c73001270c3c1f60c02cd72b3f5652ff02557a5f0586fd638a083cd36"
+metafile = true
+
+[[files]]
+file = "mods/zonis-void-dimension.pw.toml"
+hash = "9b6349ff45c88546f618a9726f754b55272b86365d121fadb2e2284c2f0710d9"
 metafile = true
 
 [[files]]

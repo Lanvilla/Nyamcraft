@@ -1,0 +1,17 @@
+# Use Cloth Config mod for the descriptions.
+---
+rules:
+  multiworld:nvworld:
+    doFireTick: 'false'
+    doVinesSpread: 'false'
+    waterSourceConversion: 'false'
+    doInsomnia: 'false'
+    projectilesCanBreakBlocks: 'false'
+    keepInventory: 'true'
+    mobGriefing: 'false'
+    doMobSpawning: 'false'
+    doTraderSpawning: 'false'
+    doWeatherCycle: 'false'
+    doDaylightCycle: 'false'
+    doPatrolSpawning: 'false'
+  minecraft:overworld: {}

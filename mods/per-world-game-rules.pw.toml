@@ -1,0 +1,13 @@
+name = "Per-Dimension Game Rules"
+filename = "PerWorldGameRules-1.21.1-NeoForge-4.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9fceefb429c0d531d1100b6a537ee7332143e992"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7118821
+project-id = 828106
