@@ -29,7 +29,7 @@ menu_background {
   instance_identifier = d12f04e7-7322-48a7-a991-07dfaa6a6dd3-1779110285164
   background_type = image
   show_background = true
-  image_path = [source:local]/config/fancymenu/assets/mainmenu.png
+  image_path = [source:local]/config/fancymenu/assets/mainmenu_mp.png
   slide = false
   repeat_texture = false
   parallax = false

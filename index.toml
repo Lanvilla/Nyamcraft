@@ -161,20 +161,8 @@ file = "config/fancymenu/assets/button_inactive_center.png"
 hash = "64f9e44275770c7e8731c7eb1810c318436fb6639e8b71c4b6a96a70dc34405c"
 
 [[files]]
-file = "config/fancymenu/assets/mainmenu.png"
-hash = "fc21921fc6e7469b2900b6689848af6b239a2970b9afe761f2eea0c6c53c34c9"
-
-[[files]]
 file = "config/fancymenu/assets/mainmenu_mp.png"
 hash = "566661085646134a8d8ca96dbf5cb7cc151e4a5e57c0bebf2b57208f95fd285d"
-
-[[files]]
-file = "config/fancymenu/assets/mainmenu_sp.png"
-hash = "a411acc0023099a55d7e00897980cd3bea21739d326fd35f55be240e77115413"
-
-[[files]]
-file = "config/fancymenu/assets/mask.png"
-hash = "adce5ba2b680b7ede655d5abd05a6962ec47b5e5bdcf3b589fc71d735cbf1d37"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -182,7 +170,7 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "adae593250db27a1501451812054835565b95acb98684c0f3d8d86212db45770"
+hash = "d61ae0a8769f1661ce2714e0888b136e07bad30cafdc0079421a2d4726ba23c3"
 
 [[files]]
 file = "config/fancymenu/customization/accessibility_options_screen_layout.txt"
@@ -206,7 +194,7 @@ hash = "a8120fae93b26687713fcf5ec46824fca2f96a818f42cae165b5c406262cdf85"
 
 [[files]]
 file = "config/fancymenu/customization/create_world_screen_layout.txt"
-hash = "d297e522bd4d5e7dc72b83e34220f75853d598a9e5efc252ad6bd69cb334c78f"
+hash = "a5821aa62ee412b6a07046469f7ffa9a2f6c853078417c35b3309ba9e21d5489"
 
 [[files]]
 file = "config/fancymenu/customization/direct_join_server_screen_layout.txt"
@@ -218,7 +206,7 @@ hash = "47d568ac53ac9e3ef6f71c8cad248282385325e150ec53745b637c103a43e5b9"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "7b1721b4d4645391f1ace227335b54668a222058a9f872925b6852a04cd7f38a"
+hash = "b433dafdde2db1d5e0f9b3800e27f73608bf1f7dc8e14e476076672f16979454"
 
 [[files]]
 file = "config/fancymenu/customization/edit_server_screen_layout.txt"
@@ -289,8 +277,12 @@ file = "config/fancymenu/customization/receiving_level_screen_layout.txt"
 hash = "0d747590cf4f39860a4ab4fcb2811959282cef520d986763da0d49c4c381ce00"
 
 [[files]]
+file = "config/fancymenu/customization/safety_screen_layout.txt"
+hash = "696d24a8ced0cc69c975235327127238d7d0b876c3b13513ba26d78d80e553e7"
+
+[[files]]
 file = "config/fancymenu/customization/select_world_screen_layout.txt"
-hash = "01056f1ca2556c4d8f1c11801130a131e2c48d1cdaa22b828153378bcd7b8dd2"
+hash = "74290c8e8bb52143423949ca5b0065cfcfc8d75dba498ed21ac616a46c60f7a6"
 
 [[files]]
 file = "config/fancymenu/customization/skin_customization_screen_layout.txt"
@@ -306,7 +298,7 @@ hash = "d66fe8fede09e111cb983776ad1239bf036ff82b0707fa359d89d222bb29fdd8"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "dfa412324c9fd289ebd6adbc4e49e6e3ae69c5808c831f9dbc9e279d3f8c0947"
+hash = "147ff199de021c1c49612e9d48082faef31f016b62682f115f54c96d369c31e5"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -318,7 +310,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "ec024428f50996c46fb9177118404f38ba422ab3ded399bf17aea4ef491d5876"
+hash = "0b5b40a2846d23e3d343e4cb330cc80010b02d5905d9e990b5d67c48eee8006a"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -606,7 +598,7 @@ hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
 file = "config/xaero/minimap/client.cfg"
-hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+hash = "388b00d8459a7bbc788eb505732308b5ee7075fbbdde626e24b5a9e4c61cb8bb"
 
 [[files]]
 file = "config/xaero/minimap/common.cfg"
@@ -638,7 +630,7 @@ hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
 file = "config/xaero/world-map/client.cfg"
-hash = "deece0fe0d29f2203a9699143a6209c451e91d7ecb799489c328b0d0fa31a90d"
+hash = "cd912d93edb33db50987ad7127ce08687106fa15ce7fe6849d74901115c13e80"
 
 [[files]]
 file = "config/xaero/world-map/common.cfg"
@@ -968,7 +960,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
+hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
@@ -988,7 +980,7 @@ metafile = true
 
 [[files]]
 file = "mods/bclib-neoforge.pw.toml"
-hash = "960872c5260457a07916899d1a3df9b91af476c982952751766db044b4c238c8"
+hash = "7be62c8007981578e8fb36d6d5ec702685e7673445f72e1ccd329c1b2f4577e7"
 metafile = true
 
 [[files]]
@@ -998,12 +990,12 @@ metafile = true
 
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
-hash = "0cafc790d0051af64aa01b16ca236b17ecedcfa0d79b2e3f54f3067b324b6d15"
+hash = "811a0532d490a0f569bb78d01fa842bddc267a3cc49c599ebbd06998a2ca1d1a"
 metafile = true
 
 [[files]]
 file = "mods/betternether-neoforge.pw.toml"
-hash = "1711c233da3310933c5043c24ad68ced113fa8df95341b5f0dff20192bf3a57c"
+hash = "5cc5c66542da3dc20d3f0bf20da7fcc364ed7d2cb3d281210c2c359f2404f21f"
 metafile = true
 
 [[files]]
@@ -1147,8 +1139,13 @@ hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
 metafile = true
 
 [[files]]
+file = "mods/emotecraft-forge.pw.toml"
+hash = "41da9deeec5e9e6f3369f890a9f459d3dae3edf59c7072cb7c5dd26b953bf7d7"
+metafile = true
+
+[[files]]
 file = "mods/entityjs.pw.toml"
-hash = "7a54b08733ec8d0df23580235ba868002d6d45c12938b7ecbc5bd1baa3db1e60"
+hash = "b79debc8750e220e0f5b91b8500b2b79ffa2b4b52c402488fcb3bf5f04780b67"
 metafile = true
 
 [[files]]
@@ -1178,7 +1175,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "268e0ccb66eb96da9a85f129ee1247581398e6d4848d190647729cd68a7a5006"
+hash = "0922cfee3b7351e62fb22ccc6e5a59f35fd99fe80737dc861ada3b5407ecdf87"
 metafile = true
 
 [[files]]
@@ -1188,12 +1185,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "5fb287ddb204cc2460dc51984099b0010462f781d00b2d6ed2a37046accf2560"
+hash = "4c996e783683f1a51df88d6af6b57881ff095c8801b0f5ab2969d0d121c137f8"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "d1cd2e49985872d923864aa44e4ff8b4d97e3ab9e78bf2c5fd57d2275a62901b"
+hash = "bcb262cd4974aa8539786bfe5ff42c2c8737e595b34090131ada06cda5658f80"
 metafile = true
 
 [[files]]
@@ -1203,7 +1200,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "43287a3c5030a05b370b45ec1ab9a4a8d5c3d43e9c740aae5218f07ffd041fd2"
+hash = "6a76a2faafbca6e5743c1907e5acf878b0ef75c29807452af8c2655439a1c085"
 metafile = true
 
 [[files]]
@@ -1278,7 +1275,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
+hash = "018fd970193f808f8c28f873d8b8c69ac9ba134712c7db27fc8d639cb226c9a6"
 metafile = true
 
 [[files]]
@@ -1293,12 +1290,12 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-emi-compat.pw.toml"
-hash = "d4ce41dd8d149e8a53317e26532bf542d82d33c6728d2e259b6155b5dc7f7aa7"
+hash = "a3290784b22069ccc1936eb2b0408ae6ecea4b5e58bc972cff35cd078df46aec"
 metafile = true
 
 [[files]]
 file = "mods/lets-do-farm-charm.pw.toml"
-hash = "139243c0b47a2d89147289b8d9ef91178c1c2511f3060e00e3699d0e3adb226b"
+hash = "ab76f91b59f2ef174907ea9d080a4ccc03fcacd013565eed2b1cba8ed06d99ea"
 metafile = true
 
 [[files]]
@@ -1323,7 +1320,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-wildernature.pw.toml"
-hash = "0c93cce4687d676ade38014ef7c93eb70d00edb42537cf0beae8675b1affbb89"
+hash = "c0fc9629d3d198a570bb8f8867603c27b5bf49af41c1f987afc49ea0a60cae32"
 metafile = true
 
 [[files]]
@@ -1368,7 +1365,7 @@ metafile = true
 
 [[files]]
 file = "mods/moogs-structure-lib.pw.toml"
-hash = "94dfa4f9fce750ec4961b55b289b3ee3959a06b7b8a39a54ed9a0c709565658a"
+hash = "7827f48353ece869368dc9b9e5e5f3111d1dc38d166f376fbb176bba96d9e421"
 metafile = true
 
 [[files]]
@@ -1388,7 +1385,7 @@ metafile = true
 
 [[files]]
 file = "mods/naturalist.pw.toml"
-hash = "bcd24eb0db2625488682ca538416a87a301543e5b68bff6633677a6780422db5"
+hash = "f1363fb2ffcc4f617935af07f94a611adaa5d1e40cffdf303e9a546740a7411d"
 metafile = true
 
 [[files]]
@@ -1443,7 +1440,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
+hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
 metafile = true
 
 [[files]]
@@ -1483,7 +1480,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "369617869e9c8224e9c5e875d70677c491bc4282919b32705d096d253e2ffecd"
+hash = "cca4b10598ae8cedcc2a6531a422453d624ceb4d1de1163ce46255415ccda045"
 metafile = true
 
 [[files]]
@@ -1503,12 +1500,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "98ca9034a0cf86a04f68bf15730bcfcc349b1ac661874a3358b7ed2952bd73aa"
+hash = "9691e0caa6ebd2d045e862e792aa762b2eb159c359d9c446241d32f731a7e5bb"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "1692d298e28e31cd6a7259a304b1a97f51c1a7d9143fee4da92fabaffdf57fb7"
+hash = "c700f42611b1e4412c3528b976100e48d7fb992f84f39de37b8db3aa2bb444ce"
 metafile = true
 
 [[files]]
@@ -1558,7 +1555,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldweaver-neoforge.pw.toml"
-hash = "a6ecd6bd9f80f5ae769dfd0742a7d8f5e874480602ad45b2ad083b9571fd5c34"
+hash = "ecac82c61c8c1c0536e522d8fec2627c8c882e52e9afafd54fe10651717bea2c"
 metafile = true
 
 [[files]]
@@ -1568,12 +1565,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "f591419fdc0da19939296f17d8d65d37d6c038476f65b07f341922f568595f78"
+hash = "4c336c9a00838ff5b5bbf6cd8ae35927186fdfa42258ca15513835e1b12ced2f"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "d7741a98f8178b9c32f62b0eb334cac2961ae95bfe5fdcec060918bbc9b0311c"
+hash = "210cce3a74344d8ccbe0023ea0399b5573c5e622ae970d0cf81b753b18f1fc3f"
 metafile = true
 
 [[files]]

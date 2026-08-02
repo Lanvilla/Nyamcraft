@@ -1,13 +1,13 @@
 name = "EntityJS"
-filename = "entityjs-1.4.7.jar"
+filename = "entityjs-1.5.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/OvPZ16yX/versions/HRHpOCTy/entityjs-1.4.7.jar"
-hash-format = "sha512"
-hash = "06be26345a6440ae11567907418d811428c90758aaa32b774b91a708318376f4c5c40b2f040e990482622faf78259ce50bbad1ad7963dde13bf5090552f598ef"
+hash-format = "sha1"
+hash = "f3b58ad02bf9ca5db58ce1a8401eb561d63d855e"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "OvPZ16yX"
-version = "HRHpOCTy"
+[update.curseforge]
+file-id = 8540969
+project-id = 967617

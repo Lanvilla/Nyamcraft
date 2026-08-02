@@ -33,9 +33,6 @@ net.minecraft.client.gui.screens.options.OptionsScreen {
 net.minecraft.client.gui.screens.PauseScreen {
 }
 
-net.caffeinemc.mods.sodium.client.gui.SodiumOptionsGUI {
-}
-
 net.minecraft.client.gui.screens.options.SoundOptionsScreen {
 }
 
@@ -79,5 +76,8 @@ net.minecraft.client.gui.screens.ProgressScreen {
 }
 
 net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.SafetyScreen {
 }
 
