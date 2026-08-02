@@ -310,7 +310,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "0b5b40a2846d23e3d343e4cb330cc80010b02d5905d9e990b5d67c48eee8006a"
+hash = "ec024428f50996c46fb9177118404f38ba422ab3ded399bf17aea4ef491d5876"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -1630,4 +1630,4 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "4a395ce450f2860e565ecc13d31fbf5cd03e277cb8ec983dff4986d92521b5d2"
+hash = "f7dfcd832b1299ae1ba3a587cd14f304ea7e84a027427edae5d76c1911ed9f44"
