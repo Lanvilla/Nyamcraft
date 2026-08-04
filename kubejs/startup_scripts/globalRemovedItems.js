@@ -1,5 +1,4 @@
 global.removedItems = [
-	"void_dimension:void_dimension",
 	//create
 	//"create:wheat_flour",
 	//"create:dough",

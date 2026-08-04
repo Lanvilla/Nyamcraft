@@ -926,7 +926,7 @@ hash = "a16d05127a2aab9084308ca7b7fb2d10fddf9d0fc4ed660a2ae1930ca3b3f25b"
 
 [[files]]
 file = "kubejs/startup_scripts/globalRemovedItems.js"
-hash = "7300637752b903f23a12a914bea9001952c2ef2f18a932445e976ce4a0bccd35"
+hash = "1cc9be1340e95d5a19bcafe388b226fbf149d84b21911ce1361dbe2f1feb354e"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -1621,11 +1621,6 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-strongholds-neoforge.pw.toml"
 hash = "1dbfc17c73001270c3c1f60c02cd72b3f5652ff02557a5f0586fd638a083cd36"
-metafile = true
-
-[[files]]
-file = "mods/zonis-void-dimension.pw.toml"
-hash = "9b6349ff45c88546f618a9726f754b55272b86365d121fadb2e2284c2f0710d9"
 metafile = true
 
 [[files]]
